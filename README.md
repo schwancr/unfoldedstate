@@ -2,6 +2,7 @@ SAXS
 ====
 
 Goals / Questions to attempt to answer:
+---------------------------------------
 
 1. Does MD unfolded state fit the experimental saxs data?
 2. Can we re-weight an MSM to fit the experimental data?
@@ -19,6 +20,7 @@ Goals / Questions to attempt to answer:
 
 
 Things we need to bug James about:
+----------------------------------
 1. What is the range of q? Can we have more data?
 2. We need all of the data that made the error bars (Because we need to calculate covariance matrix for the likelihood)
 3. Ubiquitin / Protein L data as well (since we have explicit and implicit)
