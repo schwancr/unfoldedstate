@@ -1,0 +1,75 @@
+data_cns_mtf
+
+_cns_mtf.title
+; FILENAME="C:\Alex\NIH\SAXS\lysozyme\axis_501.mtf"
+  file toppar/protein.link
+
+  this is a macro to define standard protein peptide bonds
+  and termini to generate a protein sequence.
+  DATE:18-Apr-2004  13:12:39       created by user: agrishaev
+  VERSION:0.9a
+;
+
+loop_
+_cns_mtf_atom.id
+_cns_mtf_atom.segment_id
+_cns_mtf_atom.residue_id
+_cns_mtf_atom.residue_name
+_cns_mtf_atom.atom_name
+_cns_mtf_atom.chemical_type
+_cns_mtf_atom.charge
+_cns_mtf_atom.atom_mass
+1 ' ' '500' 'ANI' 'X' 'XXX' 0.00000 10.0000
+2 ' ' '500' 'ANI' 'Y' 'YYY' 0.00000 10.0000
+3 ' ' '500' 'ANI' 'Z' 'ZZZ' 0.00000 10.0000
+4 ' ' '500' 'ANI' 'OO' 'OOO' 0.00000 10.0000
+-1 ' ' ' ' ' ' ' ' ' ' -1.00000 -1.00000
+
+loop_
+_cns_mtf_bond.id[1]
+_cns_mtf_bond.id[2]
+4 1
+4 2
+4 3
+-1 -1
+
+loop_
+_cns_mtf_angle.id[1]
+_cns_mtf_angle.id[2]
+_cns_mtf_angle.id[3]
+1 4 2
+1 4 3
+2 4 3
+-1 -1 -1
+
+loop_
+_cns_mtf_dihedral.id[1]
+_cns_mtf_dihedral.id[2]
+_cns_mtf_dihedral.id[3]
+_cns_mtf_dihedral.id[4]
+-1 -1 -1 -1
+
+loop_
+_cns_mtf_improper.id[1]
+_cns_mtf_improper.id[2]
+_cns_mtf_improper.id[3]
+_cns_mtf_improper.id[4]
+-1 -1 -1 -1
+
+loop_
+_cns_mtf_explicit_nonbonded_exclusion.inb
+-1
+
+loop_
+_cns_mtf_explicit_nonbonded_exclusion.iblo
+0
+0
+0
+0
+-1
+
+loop_
+_cns_mtf_group_linked_list.first_atom_id
+0
+-1
+

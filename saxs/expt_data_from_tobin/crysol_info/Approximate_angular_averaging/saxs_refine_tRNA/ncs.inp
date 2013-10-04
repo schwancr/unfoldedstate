@@ -1,0 +1,197 @@
+set message=on echo=on end
+do (B=0.0) (all)
+
+do (B=1.0) (segi TVAL and resi  1:73)
+do (B=0.0) (segi TVAL and resi  7 and (name O3' ))
+do (B=0.0) (segi TVAL and resi  8 and (name P   or name O1P or name O2P or name O5' or name C5' or name H5' or name H5''))
+do (B=0.0) (segi TVAL and resi 48 and (name O3' ))
+do (B=0.0) (segi TVAL and resi 49 and (name P   or name O1P or name O2P or name O5' or name C5' or name H5' or name H5''))
+
+do (B=1.0) (segi TPHE and resi  1:73)
+do (B=0.0) (segi TPHE and resi  7 and (name O3' ))
+do (B=0.0) (segi TPHE and resi  8 and (name P   or name O1P or name O2P or name O5' or name C5' or name H5' or name H5''))
+do (B=0.0) (segi TPHE and resi 48 and (name O3' ))
+do (B=0.0) (segi TPHE and resi 49 and (name P   or name O1P or name O2P or name O5' or name C5' or name H5' or name H5''))
+		   
+ncs restraints
+! *** sequential stackings ***
+  group equi (segi TVAL and resi  1: 2 and attr B=1.0) equi (segi TPHE and resi  1: 2 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi  2: 3 and attr B=1.0) equi (segi TPHE and resi  2: 3 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi  3: 4 and attr B=1.0) equi (segi TPHE and resi  3: 4 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi  4: 5 and attr B=1.0) equi (segi TPHE and resi  4: 5 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi  5: 6 and attr B=1.0) equi (segi TPHE and resi  5: 6 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi  6: 7 and attr B=1.0) equi (segi TPHE and resi  6: 7 and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and resi  8: 9 and attr B=1.0) equi (segi TPHE and resi  8: 9 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi  9:10 and attr B=1.0) equi (segi TPHE and resi  9:10 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 10:11 and attr B=1.0) equi (segi TPHE and resi 10:11 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 11:12 and attr B=1.0) equi (segi TPHE and resi 11:12 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 12:13 and attr B=1.0) equi (segi TPHE and resi 12:13 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 13:14 and attr B=1.0) equi (segi TPHE and resi 13:14 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 14:15 and attr B=1.0) equi (segi TPHE and resi 14:15 and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and resi 18:19 and attr B=1.0) equi (segi TPHE and resi 18:19 and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and resi 21:22 and attr B=1.0) equi (segi TPHE and resi 21:22 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 22:23 and attr B=1.0) equi (segi TPHE and resi 22:23 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 23:24 and attr B=1.0) equi (segi TPHE and resi 23:24 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 24:25 and attr B=1.0) equi (segi TPHE and resi 24:25 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 25:26 and attr B=1.0) equi (segi TPHE and resi 25:26 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 26:27 and attr B=1.0) equi (segi TPHE and resi 26:27 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 27:28 and attr B=1.0) equi (segi TPHE and resi 27:28 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 28:29 and attr B=1.0) equi (segi TPHE and resi 28:29 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 29:30 and attr B=1.0) equi (segi TPHE and resi 29:30 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 30:31 and attr B=1.0) equi (segi TPHE and resi 30:31 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 31:32 and attr B=1.0) equi (segi TPHE and resi 31:32 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 32:33 and attr B=1.0) equi (segi TPHE and resi 32:33 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 33:34 and attr B=1.0) equi (segi TPHE and resi 33:34 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 34:35 and attr B=1.0) equi (segi TPHE and resi 34:35 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 35:36 and attr B=1.0) equi (segi TPHE and resi 35:36 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 36:37 and attr B=1.0) equi (segi TPHE and resi 36:37 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 37:38 and attr B=1.0) equi (segi TPHE and resi 37:38 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 38:39 and attr B=1.0) equi (segi TPHE and resi 38:39 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 39:40 and attr B=1.0) equi (segi TPHE and resi 39:40 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 40:41 and attr B=1.0) equi (segi TPHE and resi 40:41 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 41:42 and attr B=1.0) equi (segi TPHE and resi 41:42 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 42:43 and attr B=1.0) equi (segi TPHE and resi 42:43 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 43:44 and attr B=1.0) equi (segi TPHE and resi 43:44 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 44:45 and attr B=1.0) equi (segi TPHE and resi 44:45 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 45:46 and attr B=1.0) equi (segi TPHE and resi 45:46 and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and resi 49:50 and attr B=1.0) equi (segi TPHE and resi 49:50 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 50:51 and attr B=1.0) equi (segi TPHE and resi 50:51 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 51:52 and attr B=1.0) equi (segi TPHE and resi 51:52 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 52:53 and attr B=1.0) equi (segi TPHE and resi 52:53 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 53:54 and attr B=1.0) equi (segi TPHE and resi 53:54 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 54:55 and attr B=1.0) equi (segi TPHE and resi 54:55 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 55:56 and attr B=1.0) equi (segi TPHE and resi 55:56 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 56:57 and attr B=1.0) equi (segi TPHE and resi 56:57 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 57:58 and attr B=1.0) equi (segi TPHE and resi 57:58 and attr B=1.0) weight-ncs=100.0 end 
+  
+  group equi (segi TVAL and resi 61:62 and attr B=1.0) equi (segi TPHE and resi 61:62 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 62:63 and attr B=1.0) equi (segi TPHE and resi 62:63 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 63:64 and attr B=1.0) equi (segi TPHE and resi 63:64 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 64:65 and attr B=1.0) equi (segi TPHE and resi 64:65 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 65:66 and attr B=1.0) equi (segi TPHE and resi 65:66 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 66:67 and attr B=1.0) equi (segi TPHE and resi 66:67 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 67:68 and attr B=1.0) equi (segi TPHE and resi 67:68 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 68:69 and attr B=1.0) equi (segi TPHE and resi 68:69 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 69:70 and attr B=1.0) equi (segi TPHE and resi 69:70 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 70:71 and attr B=1.0) equi (segi TPHE and resi 70:71 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 71:72 and attr B=1.0) equi (segi TPHE and resi 71:72 and attr B=1.0) weight-ncs=100.0 end 
+  group equi (segi TVAL and resi 72:73 and attr B=1.0) equi (segi TPHE and resi 72:73 and attr B=1.0) weight-ncs=100.0 end 
+
+! ***  base pairs ***
+  group equi (segi TVAL and (resi  1 or resi 72) and attr B=1.0) 
+        equi (segi TPHE and (resi  1 or resi 72) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi  2 or resi 71) and attr B=1.0) 
+        equi (segi TPHE and (resi  2 or resi 71) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi  3 or resi 70) and attr B=1.0) 
+        equi (segi TPHE and (resi  3 or resi 70) and attr B=1.0) weight-ncs=100.0 end 
+  
+  group equi (segi TVAL and (resi  4 or resi 69) and attr B=1.0) 
+        equi (segi TPHE and (resi  4 or resi 69) and attr B=1.0) weight-ncs=100.0 end 
+  
+  group equi (segi TVAL and (resi  5 or resi 68) and attr B=1.0) 
+        equi (segi TPHE and (resi  5 or resi 68) and attr B=1.0) weight-ncs=100.0 end 
+  
+  group equi (segi TVAL and (resi  6 or resi 67) and attr B=1.0) 
+        equi (segi TPHE and (resi  6 or resi 67) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi  7 or resi 66) and attr B=1.0) 
+        equi (segi TPHE and (resi  7 or resi 66) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 11 or resi 24) and attr B=1.0) 
+        equi (segi TPHE and (resi 11 or resi 24) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 12 or resi 23) and attr B=1.0) 
+        equi (segi TPHE and (resi 12 or resi 23) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 13 or resi 22) and attr B=1.0) 
+        equi (segi TPHE and (resi 13 or resi 22) and attr B=1.0) weight-ncs=100.0 end
+
+  group equi (segi TVAL and (resi 29 or resi 41) and attr B=1.0) 
+        equi (segi TPHE and (resi 29 or resi 41) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 30 or resi 40) and attr B=1.0) 
+        equi (segi TPHE and (resi 30 or resi 40) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 31 or resi 39) and attr B=1.0) 
+        equi (segi TPHE and (resi 31 or resi 39) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 32 or resi 38) and attr B=1.0) 
+        equi (segi TPHE and (resi 32 or resi 38) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 33 or resi 35) and attr B=1.0) 
+        equi (segi TPHE and (resi 33 or resi 35) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 49 or resi 65) and attr B=1.0) 
+        equi (segi TPHE and (resi 49 or resi 65) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 50 or resi 64) and attr B=1.0) 
+        equi (segi TPHE and (resi 50 or resi 64) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 51 or resi 63) and attr B=1.0) 
+        equi (segi TPHE and (resi 51 or resi 63) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 52 or resi 62) and attr B=1.0) 
+        equi (segi TPHE and (resi 52 or resi 62) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 53 or resi 61) and attr B=1.0) 
+        equi (segi TPHE and (resi 53 or resi 61) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 54 or resi 58) and attr B=1.0) 
+        equi (segi TPHE and (resi 54 or resi 58) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 55 or resi 58) and attr B=1.0) 
+        equi (segi TPHE and (resi 55 or resi 58) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 55 or resi 57) and attr B=1.0) 
+        equi (segi TPHE and (resi 55 or resi 57) and attr B=1.0) weight-ncs=100.0 end 
+
+! *** long-range base pairs ***
+ 
+
+  group equi (segi TVAL and (resi 10 or resi 25) and attr B=1.0) 
+        equi (segi TPHE and (resi 10 or resi 25) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 15 or resi 48) and attr B=1.0) 
+        equi (segi TPHE and (resi 15 or resi 48) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 27 or resi 43) and attr B=1.0) 
+        equi (segi TPHE and (resi 27 or resi 43) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 28 or resi 42) and attr B=1.0) 
+        equi (segi TPHE and (resi 28 or resi 42) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 55 or resi 18) and attr B=1.0) 
+        equi (segi TPHE and (resi 55 or resi 18) and attr B=1.0) weight-ncs=100.0 end 
+
+  group equi (segi TVAL and (resi 57 or resi 18) and attr B=1.0) 
+        equi (segi TPHE and (resi 57 or resi 18) and attr B=1.0) weight-ncs=100.0 end 
+
+! *** conserved triplets ***
+! U8-A14-A21
+  group equi (segi TVAL and (resi  8 or resi 14 or resi 21) and attr B=1.0) 
+        equi (segi TPHE and (resi  8 or resi 14 or resi 21) and attr B=1.0) weight-ncs=100.0 end 
+
+! A9-U12-A23
+  group equi (segi TVAL and (resi  9 or resi 23) and attr B=1.0) 
+        equi (segi TPHE and (resi  9 or resi 23) and attr B=1.0) weight-ncs=100.0 end 
+  
+  group equi (segi TVAL and (resi 12 or resi 23) and attr B=1.0) 
+        equi (segi TPHE and (resi 12 or resi 23) and attr B=1.0) weight-ncs=100.0 end 
+
+
+! C13-G22-G46
+  group equi (segi TVAL and (resi 13 or resi 22) and attr B=1.0) 
+        equi (segi TPHE and (resi 13 or resi 22) and attr B=1.0) weight-ncs=100.0 end 
+  
+  group equi (segi TVAL and (resi 22 or resi 46) and attr B=1.0) 
+        equi (segi TPHE and (resi 22 or resi 46) and attr B=1.0) weight-ncs=100.0 end 
+
+ ?
+
+end

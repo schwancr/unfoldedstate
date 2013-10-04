@@ -1,0 +1,7 @@
+file globdef   "glob_def.dat"
+file glob_fs   "glob_fs_msg_92.dat"
+file is_corr   "msg_globcorr_92.out"
+file saxsdat   "msg_a62k_x8.dat"
+file h2o_cor   "msg_watcorr_92_015.dat"
+
+

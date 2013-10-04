@@ -1,0 +1,249 @@
+define( md.seed=823641; )
+set seed=&md.seed end
+set message=on echo=on end
+
+
+parameter @prot.par end
+structure @nisaAB.mtf @nisaC.mtf end
+
+
+! *** read in the initial coordinates ***
+coor @nisaAB_init.pdb @nisaC_gen.pdb
+dele sele (not known) end
+coor copy end
+
+
+! *** Non-bonded parameters ***
+parameter                      
+  nbonds
+    repel=0.9
+    rconst = 4.0
+    rexp=2 irexp=2
+    nbxmod = 3                 
+    wmin=0.01 
+    cutnb=5.0 
+    tolerance=0.5 
+  end
+end
+
+! The CNS code here restricts the action of the potiential to particular chain IDs
+! useful for complexes such as in this example
+! Make sure you specify chain IDs when running it!
+! *** SAXS data fitting parameters ***
+saxs
+ ntyp = 20       ! # of glob types
+ ndat = 26       ! # of data points 
+ kfor = 20.0     ! force const 
+ prnf = 1000     ! printing frequency
+ i0   = 16600.0
+ segm = A   
+ segm = B   
+ @saxs_files_nisa.dat
+end
+
+
+! *** NOEs ***
+noe
+  reset
+  nres = 100
+  class AB @AB_noes.tbl
+  ceiling=1000  
+  potential  * square
+  sqoffset   * 0.0  
+  sqconstant * 1.0  
+  sqexponent * 2  
+  soexponent * 1  
+  asymptote  * 1.0 
+  rswitch    * 0.5  
+  averaging  * r-6
+  scale      * 100.0
+end
+
+do (B=0.0)  (all)
+do (B=1.0)  (segi A and resi 375 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 378 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 379 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 382 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 383 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 387 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 389 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 390 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 391 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+
+do (B=1.0)  (segi B and resi 375 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 378 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 379 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 382 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 383 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 387 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 389 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 390 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 391 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+
+do (B=1.0)  (segi C and resi 375 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 378 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 379 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 382 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 383 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 387 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 389 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 390 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 391 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+
+
+do (B=1.0)  (segi A and resi 545 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 548 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 552 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 553 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 556 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 557 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 560 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 561 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 563 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 564 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi A and resi 565 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+
+do (B=1.0)  (segi B and resi 545 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 548 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 552 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 553 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 556 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 557 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 560 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 561 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 563 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 564 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi B and resi 565 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+
+do (B=1.0)  (segi C and resi 545 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 548 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 552 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 553 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 556 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 557 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 560 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 561 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 563 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 564 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+do (B=1.0)  (segi C and resi 565 and (not hydrogen) and (not (name Ca or name C or name N or name O )))
+
+do (B=1.0)  (segi A and resi 385:387)
+do (B=1.0)  (segi B and resi 385:387)
+do (B=1.0)  (segi C and resi 385:387)
+
+!*** ncs term: ffix monomer coords & enforce C2 symmetry ***
+ncs restraints 
+
+  group 
+    equi (segid C and (not hydrogen) and (attribute B = 0.0) ) 
+    equi (segid A and (not hydrogen) and (attribute B = 0.0) ) 
+    weight-ncs = 100.0
+  end 
+
+  group 
+    equi (segid C and (not hydrogen) and (attribute B = 0.0)) 
+    equi (segid B and (not hydrogen) and (attribute B = 0.0)) 
+    weight-ncs = 100.0
+  end
+
+
+  group 
+    equi ((segid A and resid   1:283 and name Ca) or 
+          (segid B and resid 284:566 and name Ca))
+    equi ((segid B and resid   1:283 and name Ca) or 
+          (segid A and resid 284:566 and name Ca))
+    weight-ncs = 10.0
+  end
+  ?
+end
+ 
+
+
+
+set message=on echo=on end 
+
+do (mass  = 100.0) (all) 
+do (fbeta =  10.0) (all)
+
+do (x=x+200.0)  (segid C   )
+do (y=y+200.0)  (segid C   )
+do (z=z+200.0)  (segid C   )
+
+do (refx=x) (all)
+do (refy=y) (all)
+do (refz=z) (all)
+
+fix selection = (segid C   ) end
+
+flags exclude * include bond angle impr ncs vdw noe saxs end
+igroup interaction (all) (all) weights * 1 end end
+
+minimize powell nstep=250  nprint=10 end
+
+
+!*** Main loop ***
+
+evaluate ( $nfile  = 20)
+evaluate ( $ifile  =  1)
+
+
+evaluate ( $imax = $nfile+2 )
+while ( $ifile < $imax ) loop main
+
+  evaluate ( $t_ini  =              2001.0)
+  evaluate ( $t_fin  =                 1.0)
+  evaluate ( $tsteps =                 200)
+  evaluate ( $nsteps =                 250)
+  evaluate ( $dt = ($t_ini-$t_fin)/$tsteps)
+
+  !*** Simulated annealing loop ***
+  evaluate ($t_curr =  $t_ini)
+  evaluate ($nsim   =       1)
+  evaluate ($nmax = $tsteps+2)
+  while    ($nsim < $nmax) loop cool
+
+    do (vx=maxwell($t_curr)) (all)
+    do (vy=maxwell($t_curr)) (all)
+    do (vz=maxwell($t_curr)) (all)
+
+    dynamics  cartesian
+      cmremove=false
+      vscaling=false
+      tcoupling=true
+      timestep=0.002
+      nstep=$nsteps
+      nprint=$nsteps
+      temperature=$t_curr           
+    end 
+
+    evaluate ($t_curr = $t_curr-$dt)
+    evaluate ($nsim = $nsim +1)
+
+
+  end loop cool
+
+  minimize powell nstep=200  nprint=10 end
+
+  evaluate ($filename="nisa_it1_"+encode($ifile)+".pdb")
+  set print=$filename end
+  print threshold=0.5 noe
+  evaluate ($rms_noe=$result)
+  evaluate ($violations_noe=$violations)
+  saxs print end
+  remarks =============================================================== 
+  remarks Empirical energies:  vdw, ncs
+  remarks energies: $vdw, $ncs
+  remarks =============================================================== 
+  remarks Data  fit energies:  noe, saxs
+  remarks energies: $noe, $saxs
+  remarks =============================================================== 
+  remarks  rms noe: $rms_noe
+  remarks ===============================================================
+  write coordinates sele= (not segid C ) output =$filename end
+  evaluate ($ifile = $ifile +1)
+
+end loop main
+
+stop
+
+

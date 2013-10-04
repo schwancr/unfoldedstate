@@ -1,0 +1,38 @@
+ 37  - Number of globs; glob definitions are below (PDB naming convention)
+PEPT 4 1 C    O    N    H    
+PEPP 3 2 C    O    N    
+NTER 4 3 N   1H   2H   3H  
+CTER 3 4 C    O    OXT  
+ALA  6 5 CA   HA   CB  1HB  2HB  3HB                                 
+ARG  8 6 CA   HA   CB  1HB  2HB   CG  1HG  2HG 
+ARG 12 7 CD  1HD  2HD   NE   HE   CZ   NH1  NH2 1HH1 2HH1 1HH2 2HH2
+ASP  5 8 CA   HA   CB  1HB  2HB                                           
+ASP  3 9 CG   OD1  OD2                                                 
+ASN  5 0 CA   HA   CB  1HB  2HB                                      
+ASN  5 1 CG   OD1  ND2 1HD2 2HD2                                     
+CYS  6 2 CA   HA   CB  1HB  2HB   SG            
+GLU  8 3 CA   HA   CB  1HB  2HB   CG  1HG  2HG                   
+GLU  3 4 CD   OE1  OE2                                          
+GLN  8 5 CA   HA   CB  1HB  2HB   CG  1HG  2HG                        
+GLN  5 6 CD   OE1  NE2 1HE2 2HE2                                
+GLY  3 7 CA  1HA  2HA                                              
+HIS  5 8 CA   HA   CB  1HB  2HB                                 
+HIS  7 9 CG   ND1  CD2  HD2  CE1  HE1  NE2                        
+ILE  8 0 CA   HA   CB   HB   CG2 1HG2 2HG2 3HG2                     
+ILE  7 1 CG1 1HG1 2HG1  CD1 1HD1 2HD1 3HD1                              
+LEU  5 2 CA   HA   CB  1HB  2HB                                          
+LEU 10 3 CG   HG   CD1 1HD1 2HD1 3HD1  CD2 1HD2 2HD2 3HD2              
+LYS  8 4 CA   HA   CB  1HB  2HB   CG  1HG  2HG                     
+LYS 10 5 CD  1HD  2HD   CE  1HE  2HE   NZ  1HZ  2HZ  3HZ               
+MET  8 6 CA   HA   CB  1HB  2HB   CG  1HG  2HG                    
+MET  5 7 SD   CE  1HE  2HE  3HE                                      
+PHE  5 8 CA   HA   CB  1HB  2HB                                     
+PHE 11 9 CG   CD1  HD1  CD2  HD2  CE1  HE1  CE2  HE2  CZ   HZ  
+PRO 11 0 CA   HA   CB  1HB  2HB   CG  1HG  2HG   CD  1HD  2HD  
+SER  7 1 CA   HA   CB  1HB  2HB   OG   HG              
+THR 10 2 CA   HA   CB   HB   OG1  HG1  CG2 1HG2 2HG2 3HG2          
+TRP  5 3 CA   HA   CB  1HB  2HB                                     
+TRP 15 4 CG   CD1  HD1  CD2  NE1  HE1  CE2  CE3  HE3  CZ2  HZ2  CZ3  HZ3  CH2  HH2  
+TYR  5 5 CA   HA   CB  1HB  2HB                                    
+TYR 12 6 CG   CD1  HD1  CD2  HD2  CE1  HE1  CE2  HE2  CZ   OH   HH       
+VAL 12 7 CA   HA   CB   HB   CG1 1HG1 2HG1 3HG1  CG2 1HG2 2HG2 3HG2

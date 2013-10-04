@@ -1,0 +1,7 @@
+file scatdef   "scatterers.dat"
+file scat_fq   "Fqscat_tRNA.dat"
+file grd_unc   "discr_spir90_tRNA.dat"
+file saxsdat   "tRNA_zeroC_x3desm95x5.dat"
+file h2o_cor   "watcorr_075.dat"
+
+

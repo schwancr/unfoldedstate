@@ -1,0 +1,952 @@
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 22 and segid A and name CA   )
+       ( resid 22 and segid A and name C   )  -0.74  0.17
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 23 and segid A and name CA   )
+       ( resid 23 and segid A and name C   )  -0.51  0.191
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 24 and segid A and name CA   )
+       ( resid 24 and segid A and name C   )  0.38  0.293
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 25 and segid A and name CA   )
+       ( resid 25 and segid A and name C   )  -1.14  0.204
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 26 and segid A and name CA   )
+       ( resid 26 and segid A and name C   )  0.64  0.235
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 27 and segid A and name CA   )
+       ( resid 27 and segid A and name C   )  0.88  0.31
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 28 and segid A and name CA   )
+       ( resid 28 and segid A and name C   )  1.51  0.112
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 29 and segid A and name CA   )
+       ( resid 29 and segid A and name C   )  1.11  0.277
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 30 and segid A and name CA   )
+       ( resid 30 and segid A and name C   )  -2.46  0.175
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 31 and segid A and name CA   )
+       ( resid 31 and segid A and name C   )  1.25  0.109
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 32 and segid A and name CA   )
+       ( resid 32 and segid A and name C   )  0.1  0.185
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 33 and segid A and name CA   )
+       ( resid 33 and segid A and name C   )  0.89  0.181
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 34 and segid A and name CA   )
+       ( resid 34 and segid A and name C   )  1.38  0.158
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 35 and segid A and name CA   )
+       ( resid 35 and segid A and name C   )  1.28  0.221
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 36 and segid A and name CA   )
+       ( resid 36 and segid A and name C   )  1.39  0.189
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 37 and segid A and name CA   )
+       ( resid 37 and segid A and name C   )  0.97  0.23
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 38 and segid A and name CA   )
+       ( resid 38 and segid A and name C   )  1.3  0.293
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 39 and segid A and name CA   )
+       ( resid 39 and segid A and name C   )  0.03  0.113
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 40 and segid A and name CA   )
+       ( resid 40 and segid A and name C   )  1.27  0.173
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 41 and segid A and name CA   )
+       ( resid 41 and segid A and name C   )  -1.52  0.175
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 42 and segid A and name CA   )
+       ( resid 42 and segid A and name C   )  0.92  0.128
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 43 and segid A and name CA   )
+       ( resid 43 and segid A and name C   )  -1.1  0.173
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 44 and segid A and name CA   )
+       ( resid 44 and segid A and name C   )  -0.07  0.123
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 45 and segid A and name CA   )
+       ( resid 45 and segid A and name C   )  1.2  0.146
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 46 and segid A and name CA   )
+       ( resid 46 and segid A and name C   )  1.98  0.193
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 47 and segid A and name CA   )
+       ( resid 47 and segid A and name C   )  -1.11  0.238
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 48 and segid A and name CA   )
+       ( resid 48 and segid A and name C   )  1.28  0.139
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 49 and segid A and name CA   )
+       ( resid 49 and segid A and name C   )  -0.56  0.188
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 50 and segid A and name CA   )
+       ( resid 50 and segid A and name C   )  2.15  0.169
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 51 and segid A and name CA   )
+       ( resid 51 and segid A and name C   )  -0.06  0.183
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 52 and segid A and name CA   )
+       ( resid 52 and segid A and name C   )  0.95  0.175
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 53 and segid A and name CA   )
+       ( resid 53 and segid A and name C   )  -0.54  0.178
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 54 and segid A and name CA   )
+       ( resid 54 and segid A and name C   )  1.35  0.297
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 55 and segid A and name CA   )
+       ( resid 55 and segid A and name C   )  0.7  0.137
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 56 and segid A and name CA   )
+       ( resid 56 and segid A and name C   )  -0.73  0.207
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 57 and segid A and name CA   )
+       ( resid 57 and segid A and name C   )  0.99  0.231
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 58 and segid A and name CA   )
+       ( resid 58 and segid A and name C   )  -0.5  0.223
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 59 and segid A and name CA   )
+       ( resid 59 and segid A and name C   )  1.19  0.15
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 60 and segid A and name CA   )
+       ( resid 60 and segid A and name C   )  -1.56  0.155
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 62 and segid A and name CA   )
+       ( resid 62 and segid A and name C   )  -3.06  0.198
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 63 and segid A and name CA   )
+       ( resid 63 and segid A and name C   )  1  0.159
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 64 and segid A and name CA   )
+       ( resid 64 and segid A and name C   )  -1.64  0.244
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 65 and segid A and name CA   )
+       ( resid 65 and segid A and name C   )  1.58  0.245
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 66 and segid A and name CA   )
+       ( resid 66 and segid A and name C   )  -2.25  0.184
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 67 and segid A and name CA   )
+       ( resid 67 and segid A and name C   )  2.04  0.228
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 68 and segid A and name CA   )
+       ( resid 68 and segid A and name C   )  -1.53  0.155
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 69 and segid A and name CA   )
+       ( resid 69 and segid A and name C   )  0.91  0.223
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 70 and segid A and name CA   )
+       ( resid 70 and segid A and name C   )  -0.44  0.168
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 71 and segid A and name CA   )
+       ( resid 71 and segid A and name C   )  -0.33  0.197
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 72 and segid A and name CA   )
+       ( resid 72 and segid A and name C   )  0.97  0.145
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 73 and segid A and name CA   )
+       ( resid 73 and segid A and name C   )  -0.53  0.122
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 75 and segid A and name CA   )
+       ( resid 75 and segid A and name C   )  2.19  0.252
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 76 and segid A and name CA   )
+       ( resid 76 and segid A and name C   )  -1.27  0.187
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 77 and segid A and name CA   )
+       ( resid 77 and segid A and name C   )  -1.29  0.155
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 78 and segid A and name CA   )
+       ( resid 78 and segid A and name C   )  1.76  0.188
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 79 and segid A and name CA   )
+       ( resid 79 and segid A and name C   )  1.37  0.176
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 80 and segid A and name CA   )
+       ( resid 80 and segid A and name C   )  -2.94  0.147
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 81 and segid A and name CA   )
+       ( resid 81 and segid A and name C   )  0.56  0.129
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 82 and segid A and name CA   )
+       ( resid 82 and segid A and name C   )  1.89  0.167
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 83 and segid A and name CA   )
+       ( resid 83 and segid A and name C   )  -0.06  0.153
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 84 and segid A and name CA   )
+       ( resid 84 and segid A and name C   )  -2.49  0.131
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 85 and segid A and name CA   )
+       ( resid 85 and segid A and name C   )  1.51  0.181
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 86 and segid A and name CA   )
+       ( resid 86 and segid A and name C   )  1.51  0.196
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 87 and segid A and name CA   )
+       ( resid 87 and segid A and name C   )  -2.97  0.17
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 88 and segid A and name CA   )
+       ( resid 88 and segid A and name C   )  -0.56  0.131
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 89 and segid A and name CA   )
+       ( resid 89 and segid A and name C   )  1.32  0.177
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 90 and segid A and name CA   )
+       ( resid 90 and segid A and name C   )  0.06  0.171
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 91 and segid A and name CA   )
+       ( resid 91 and segid A and name C   )  -1.86  0.156
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 22 and segid B and name CA   )
+       ( resid 22 and segid B and name C   )  -0.74  0.17
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 23 and segid B and name CA   )
+       ( resid 23 and segid B and name C   )  -0.51  0.191
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 24 and segid B and name CA   )
+       ( resid 24 and segid B and name C   )  0.38  0.293
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 25 and segid B and name CA   )
+       ( resid 25 and segid B and name C   )  -1.14  0.204
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 26 and segid B and name CA   )
+       ( resid 26 and segid B and name C   )  0.64  0.235
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 27 and segid B and name CA   )
+       ( resid 27 and segid B and name C   )  0.88  0.31
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 28 and segid B and name CA   )
+       ( resid 28 and segid B and name C   )  1.51  0.112
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 29 and segid B and name CA   )
+       ( resid 29 and segid B and name C   )  1.11  0.277
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 30 and segid B and name CA   )
+       ( resid 30 and segid B and name C   )  -2.46  0.175
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 31 and segid B and name CA   )
+       ( resid 31 and segid B and name C   )  1.25  0.109
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 32 and segid B and name CA   )
+       ( resid 32 and segid B and name C   )  0.1  0.185
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 33 and segid B and name CA   )
+       ( resid 33 and segid B and name C   )  0.89  0.181
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 34 and segid B and name CA   )
+       ( resid 34 and segid B and name C   )  1.38  0.158
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 35 and segid B and name CA   )
+       ( resid 35 and segid B and name C   )  1.28  0.221
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 36 and segid B and name CA   )
+       ( resid 36 and segid B and name C   )  1.39  0.189
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 37 and segid B and name CA   )
+       ( resid 37 and segid B and name C   )  0.97  0.23
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 38 and segid B and name CA   )
+       ( resid 38 and segid B and name C   )  1.3  0.293
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 39 and segid B and name CA   )
+       ( resid 39 and segid B and name C   )  0.03  0.113
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 40 and segid B and name CA   )
+       ( resid 40 and segid B and name C   )  1.27  0.173
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 41 and segid B and name CA   )
+       ( resid 41 and segid B and name C   )  -1.52  0.175
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 42 and segid B and name CA   )
+       ( resid 42 and segid B and name C   )  0.92  0.128
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 43 and segid B and name CA   )
+       ( resid 43 and segid B and name C   )  -1.1  0.173
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 44 and segid B and name CA   )
+       ( resid 44 and segid B and name C   )  -0.07  0.123
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 45 and segid B and name CA   )
+       ( resid 45 and segid B and name C   )  1.2  0.146
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 46 and segid B and name CA   )
+       ( resid 46 and segid B and name C   )  1.98  0.193
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 47 and segid B and name CA   )
+       ( resid 47 and segid B and name C   )  -1.11  0.238
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 48 and segid B and name CA   )
+       ( resid 48 and segid B and name C   )  1.28  0.139
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 49 and segid B and name CA   )
+       ( resid 49 and segid B and name C   )  -0.56  0.188
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 50 and segid B and name CA   )
+       ( resid 50 and segid B and name C   )  2.15  0.169
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 51 and segid B and name CA   )
+       ( resid 51 and segid B and name C   )  -0.06  0.183
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 52 and segid B and name CA   )
+       ( resid 52 and segid B and name C   )  0.95  0.175
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 53 and segid B and name CA   )
+       ( resid 53 and segid B and name C   )  -0.54  0.178
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 54 and segid B and name CA   )
+       ( resid 54 and segid B and name C   )  1.35  0.297
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 55 and segid B and name CA   )
+       ( resid 55 and segid B and name C   )  0.7  0.137
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 56 and segid B and name CA   )
+       ( resid 56 and segid B and name C   )  -0.73  0.207
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 57 and segid B and name CA   )
+       ( resid 57 and segid B and name C   )  0.99  0.231
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 58 and segid B and name CA   )
+       ( resid 58 and segid B and name C   )  -0.5  0.223
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 59 and segid B and name CA   )
+       ( resid 59 and segid B and name C   )  1.19  0.15
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 60 and segid B and name CA   )
+       ( resid 60 and segid B and name C   )  -1.56  0.155
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 62 and segid B and name CA   )
+       ( resid 62 and segid B and name C   )  -3.06  0.198
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 63 and segid B and name CA   )
+       ( resid 63 and segid B and name C   )  1  0.159
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 64 and segid B and name CA   )
+       ( resid 64 and segid B and name C   )  -1.64  0.244
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 65 and segid B and name CA   )
+       ( resid 65 and segid B and name C   )  1.58  0.245
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 66 and segid B and name CA   )
+       ( resid 66 and segid B and name C   )  -2.25  0.184
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 67 and segid B and name CA   )
+       ( resid 67 and segid B and name C   )  2.04  0.228
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 68 and segid B and name CA   )
+       ( resid 68 and segid B and name C   )  -1.53  0.155
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 69 and segid B and name CA   )
+       ( resid 69 and segid B and name C   )  0.91  0.223
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 70 and segid B and name CA   )
+       ( resid 70 and segid B and name C   )  -0.44  0.168
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 71 and segid B and name CA   )
+       ( resid 71 and segid B and name C   )  -0.33  0.197
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 72 and segid B and name CA   )
+       ( resid 72 and segid B and name C   )  0.97  0.145
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 73 and segid B and name CA   )
+       ( resid 73 and segid B and name C   )  -0.53  0.122
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 75 and segid B and name CA   )
+       ( resid 75 and segid B and name C   )  2.19  0.252
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 76 and segid B and name CA   )
+       ( resid 76 and segid B and name C   )  -1.27  0.187
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 77 and segid B and name CA   )
+       ( resid 77 and segid B and name C   )  -1.29  0.155
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 78 and segid B and name CA   )
+       ( resid 78 and segid B and name C   )  1.76  0.188
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 79 and segid B and name CA   )
+       ( resid 79 and segid B and name C   )  1.37  0.176
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 80 and segid B and name CA   )
+       ( resid 80 and segid B and name C   )  -2.94  0.147
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 81 and segid B and name CA   )
+       ( resid 81 and segid B and name C   )  0.56  0.129
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 82 and segid B and name CA   )
+       ( resid 82 and segid B and name C   )  1.89  0.167
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 83 and segid B and name CA   )
+       ( resid 83 and segid B and name C   )  -0.06  0.153
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 84 and segid B and name CA   )
+       ( resid 84 and segid B and name C   )  -2.49  0.131
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 85 and segid B and name CA   )
+       ( resid 85 and segid B and name C   )  1.51  0.181
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 86 and segid B and name CA   )
+       ( resid 86 and segid B and name C   )  1.51  0.196
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 87 and segid B and name CA   )
+       ( resid 87 and segid B and name C   )  -2.97  0.17
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 88 and segid B and name CA   )
+       ( resid 88 and segid B and name C   )  -0.56  0.131
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 89 and segid B and name CA   )
+       ( resid 89 and segid B and name C   )  1.32  0.177
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 90 and segid B and name CA   )
+       ( resid 90 and segid B and name C   )  0.06  0.171
+
+assign ( resid 500 and name OO   )
+       ( resid 500 and name Z    )
+       ( resid 500 and name X    )
+       ( resid 500 and name Y    )
+       ( resid 91 and segid B and name CA   )
+       ( resid 91 and segid B and name C   )  -1.86  0.156
+

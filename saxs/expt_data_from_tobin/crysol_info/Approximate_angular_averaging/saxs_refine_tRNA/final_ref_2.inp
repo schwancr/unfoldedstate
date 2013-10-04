@@ -1,0 +1,223 @@
+define( md.seed=823641; )
+set seed=&md.seed end
+set message=on echo=on end
+
+parameter @dna-rna-allatom.param @axis.par end
+
+structure @tRNA_val.mtf @tRNA_mod.mtf @axis1.mtf @axis2.mtf end
+
+coor initialize end
+coor @trnaval_newpf1_msa_3_2.pdb @tVt7.pdb 
+do (x=x-400.0) (segi TPHE)
+
+! *********************************** SAXS data ***********************************
+saxs
+ ndat = 33      ! up to q=0.50
+ kfor = 100.0   ! force const 
+ I0   = 2.32    ! 2.100 for 10mgml, 1.024 for 5 mg/mL
+ updf = 50      ! update frequency
+ ngrd = 90
+ grid = spir
+ segm = TVAL
+ nmin = 1
+ nmax = 76
+ @saxs_files_zeroC_075.dat
+end
+
+! ************************** Hydrogen bond distance restraints ********************
+noe
+  reset
+  nres = 4000
+  set message=off echo=off end
+  class hbon @Hbonds.tbl
+  ceiling=1000  
+  potential  * softsquare
+  sqoffset   * 0.0  
+  sqconstant * 1.0  
+  sqexponent * 2  
+  soexponent * 1  
+  asymptote  * 1.0 
+  rswitch    * 0.5  
+  averaging  * r-6
+  scale      hbon 100.0
+end
+
+
+! ****************************** NCS restraints ***********************************
+@ncs.inp
+
+
+parameter               
+   nbonds
+      cutnb=6.5
+      rcon=4.0 
+      nbxmod=3 
+      repel=0.8 
+      rexp=2 
+      irex=2
+      wmin=0.01 
+      tolerance=0.5
+   end
+end
+
+! ***************** Rigid-body setup for torsion angle dynamics *******************
+dynamics torsion
+  topology
+    
+    fix group (resid 500 )
+    hinge rotate (resid 500)
+
+    fix group (resid 501 )
+    hinge rotate (resid 501)
+
+    fix group (segi TPHE )
+ 
+    evaluate ($res = 1)
+    while ($res le 76) loop group
+
+      fix group (segi TVAL and resi $res and resname CYT and
+            (name C1' or name N1  or name C2  or name O2 or name N3 or name C4 or 
+             name N4  or name H41 or name H42 or name C5 or name H5 or name C6 or name H6))
+
+      fix group (segi TVAL and resi $res and resname URI and
+            (name C1' or name N1  or name C2  or name O2 or name N3 or name H3 or 
+             name C4  or name O4  or name C5  or name H5 or name C6 or name H6))
+
+      fix group (segi TVAL and resi $res and resname GUA and
+            (name C1' or name N9 or name C8 or name H8 or name N7 or name C6  or name O6  or
+             name C5  or name C4 or name N3 or name C2 or name N2 or name H21 or name H22 or name N1 or name H1))
+
+      fix group (segi TVAL and resi $res and resname ADE and
+            (name C1' or name N9  or name C8  or name H8 or name N7 or name C6 or 
+             name N6  or name H61 or name H62 or name C5 or name C4 or name N3 or name C2 or name H2 or name N1))
+
+      evaluate ($res = $res +1)
+
+    end loop group
+
+  end
+
+end
+
+
+***************** RDCs *********************
+sani
+  reset
+  nres=1000
+  potential harmonic
+  class PF1 force 0.0 coeff 0.0  16.200 0.570 @@pf1_rdcs1.tbl
+  class MSA force 0.0 coeff 0.0  -0.908 0.195 @@msa_rdcs.tbl
+end
+      
+  do (mass = 100.0) (all)
+  do (fbeta = 10.0) (all)
+
+  evaluate ($cool_steps  = 5000.00)
+  evaluate ($init_t      = 2000.00)
+  evaluate ($tol = $init_t/1000.00)
+  evaluate ($final_t     =    0.00)     
+  evaluate ($tempstep    =   25.00)     
+  evaluate ($ncycle = ($init_t-$final_t)/$tempstep)
+  evaluate ($nstep = int($cool_steps*4.0/$ncycle))
+  evaluate ($endtime = $nstep*0.002)
+  evaluate ($bath  = $init_t)
+
+  evaluate ($ini_rad  = 0.850)       
+  evaluate ($fin_rad  = 0.850)
+  evaluate ($ini_con  = 4.000)       
+  evaluate ($fin_con  = 4.000)
+  evaluate ($k_vdw = $ini_con)
+  evaluate ($k_vdwfact = ($fin_con/$ini_con)^(1/$ncycle))
+  evaluate ($radius=    $ini_rad)
+  evaluate ($radfact = ($fin_rad/$ini_rad)^(1/$ncycle))
+
+  evaluate ($ini_sani_pf1 = 0.500)      
+  evaluate ($fin_sani_pf1 = 0.500)
+  evaluate ($sani_fac_pf1 = ($fin_sani_pf1/$ini_sani_pf1)^(1/$ncycle))
+  evaluate ($ksani_pf1 = $ini_sani_pf1)
+
+  evaluate ($ini_sani_msa = 5.00)      
+  evaluate ($fin_sani_msa = 5.00)
+  evaluate ($sani_fac_msa = ($fin_sani_msa/$ini_sani_msa)^(1/$ncycle))
+  evaluate ($ksani_msa = $ini_sani_msa)
+
+  flags exclude * include bond angl impr vdw ncs noe sani end 
+  igroup interaction (all) (all) weights * 1 end end
+
+  do (vx = maxwell($bath)) (all)
+  do (vy = maxwell($bath)) (all)
+  do (vz = maxwell($bath)) (all)
+
+  evaluate ($i_cool = 0)
+  while ($i_cool < $ncycle) loop cool
+    evaluate ($i_cool=$i_cool+1)
+
+    evaluate ($bath  = $bath  - $tempstep)
+
+    evaluate ($k_vdw=min($fin_con,$k_vdw*$k_vdwfact))
+    evaluate ($radius=max($fin_rad,$radius*$radfact))
+    parameter nbonds cutnb=4.5 rcon=$k_vdw nbxmod=3 repel=$radius end end
+
+    evaluate ($ksani_pf1  = $ksani_pf1*$sani_fac_pf1)
+    sani class PF1 force $ksani_pf1 end
+    
+    evaluate ($ksani_msa  = $ksani_msa*$sani_fac_msa)
+    sani class MSA force $ksani_msa end
+
+
+    dynamics torsion
+      nstep =$nstep
+      timestep = 0.002
+      temperature = $bath
+      tcoup = true
+      vscal = false
+      nprint = 100
+      cmremove = false
+      cmperiodic = 100
+    end
+
+  end loop cool
+
+
+  minimize powell nstep=100  nprint=10 end
+ 
+
+  evaluate ($filename="trnaval_newpf1_msa_4_2.pdb")
+  set print=$filename end
+
+  print threshold=0.0 noe
+  evaluate ($rms_noe=$result)
+  
+  sani print threshold=0.0 class Pf1 end
+  evaluate ($rms_sani_pf1=$result)
+  
+  sani print threshold=0.0 class MSA end
+  evaluate ($rms_sani_msa=$result)
+
+  print thres=0.05 bonds          
+  evaluate ($rms_bonds=$result)
+  print thres=5. angles
+  evaluate ($rms_angles=$result)
+  print thres=5. impropers
+  evaluate ($rms_impropers=$result)
+
+  remarks =============================================================== 
+  remarks           bonds,angles,improper,vdw,noe,ncs,sani
+  remarks energies: $bond,$angl,$impr,$vdw,$noe,$ncs,$sani
+  remarks =============================================================== 
+  remarks       noe
+  remarks  rms: $rms_noe
+  remarks =============================================================== 
+  remarks       bonds,angles,impropers
+  remarks  rms: $rms_bonds, $rms_angles, $rms_impropers
+  remarks =============================================================== 
+  remarks Pf1 N-HN RDC rms: $rms_sani_pf1
+  remarks MSA N-HN RDC rms: $rms_sani_msa
+  remarks ===============================================================
+  
+  !write coordinates output =$filename end
+  write coordinates sele= (not segi TPHE ) output =$filename end
+   
+
+
+stop

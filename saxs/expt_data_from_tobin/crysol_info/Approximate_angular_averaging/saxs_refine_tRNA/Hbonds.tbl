@@ -1,0 +1,132 @@
+
+assi (resi  1 and segi TVAL and name H21) (resid 72 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi  1 and segi TVAL and name H1 ) (resid 72 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi  1 and segi TVAL and name O6 ) (resid 72 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi  2 and segi TVAL and name H21) (resid 71 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi  2 and segi TVAL and name H1 ) (resid 71 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi  2 and segi TVAL and name O6 ) (resid 71 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi  3 and segi TVAL and name H21) (resid 70 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi  3 and segi TVAL and name H1 ) (resid 70 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi  3 and segi TVAL and name O6 ) (resid 70 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi  4 and segi TVAL and name H3 ) (resid 69 and segi TVAL and name  N1 ) 1.9 0.2 0.3 ! U-A W-C
+assi (resi  4 and segi TVAL and name O4 ) (resid 69 and segi TVAL and name  H61) 1.9 0.2 0.3  
+
+assi (resi  5 and segi TVAL and name H21) (resid 68 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi  5 and segi TVAL and name H1 ) (resid 68 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi  5 and segi TVAL and name O6 ) (resid 68 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi  6 and segi TVAL and name N1 ) (resid 67 and segi TVAL and name  H3 ) 1.9 0.2 0.3 ! A-U W-C
+assi (resi  6 and segi TVAL and name H61) (resid 67 and segi TVAL and name  O4 ) 1.9 0.2 0.3  
+
+assi (resi 66 and segi TVAL and name N1 ) (resid  7 and segi TVAL and name  H3 ) 1.9 0.2 0.3 ! A-U W-C
+assi (resi 66 and segi TVAL and name H61) (resid  7 and segi TVAL and name  O4 ) 1.9 0.2 0.3  
+
+assi (resi 49 and segi TVAL and name H21) (resid 65 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 49 and segi TVAL and name H1 ) (resid 65 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 49 and segi TVAL and name O6 ) (resid 65 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi 50 and segi TVAL and name H1 ) (resid 64 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-U ???
+assi (resi 50 and segi TVAL and name O6 ) (resid 64 and segi TVAL and name  H3 ) 1.9 0.2 0.3 
+
+assi (resi 63 and segi TVAL and name H21) (resid 51 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 63 and segi TVAL and name H1 ) (resid 51 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 63 and segi TVAL and name O6 ) (resid 51 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi 52 and segi TVAL and name H21) (resid 62 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 52 and segi TVAL and name H1 ) (resid 62 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 52 and segi TVAL and name O6 ) (resid 62 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi 53 and segi TVAL and name H21) (resid 61 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 53 and segi TVAL and name H1 ) (resid 61 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 53 and segi TVAL and name O6 ) (resid 61 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi 54 and segi TVAL and name H3 ) (resid 58 and segi TVAL and name  N7 ) 1.9 0.2 0.3 ! U-A ???
+assi (resi 54 and segi TVAL and name O2 ) (resid 58 and segi TVAL and name  H62) 1.9 0.2 0.3 
+
+assi (resi 55 and segi TVAL and name O2 ) (resid 18 and segi TVAL and name  H1 ) 1.9 0.2 0.3 ! LR
+assi (resi 55 and segi TVAL and name O2 ) (resid 18 and segi TVAL and name  H21) 1.9 0.2 0.3 
+
+assi (resi 18 and segi TVAL and name O2') (resid 57 and segi TVAL and name  H21) 1.9 0.2 0.3 
+assi (resi 18 and segi TVAL and name O2') (resid 57 and segi TVAL and name  H1 ) 1.9 0.2 0.3 
+assi (resi 19 and segi TVAL and name O4') (resid 57 and segi TVAL and name  H22) 1.9 0.2 0.3 
+assi (resi 55 and segi TVAL and name HO2')(resid 57 and segi TVAL and name  N7 ) 1.9 0.2 0.3 
+
+assi (resi 19 and segi TVAL and name H21) (resid 56 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 19 and segi TVAL and name H1 ) (resid 56 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 19 and segi TVAL and name O6 ) (resid 56 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi 15 and segi TVAL and name H21) (resid 48 and segi TVAL and name  N3 ) 1.9 0.2 0.3 ! G-C ???
+assi (resi 15 and segi TVAL and name H1 ) (resid 48 and segi TVAL and name  O2 ) 1.9 0.2 0.3
+
+assi (resi  8 and segi TVAL and name HO2')(resid 21 and segi TVAL and name  N1 ) 1.9 0.2 0.3 ! 21-14-8 TRIPLET
+assi (resi  8 and segi TVAL and name O2  )(resid 14 and segi TVAL and name  H62) 1.9 0.2 0.3 
+assi (resi  8 and segi TVAL and name H3  )(resid 14 and segi TVAL and name  N7 ) 1.9 0.2 0.3 
+
+assi (resi 22 and segi TVAL and name H21) (resid 13 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 22 and segi TVAL and name H1 ) (resid 13 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 22 and segi TVAL and name O6 ) (resid 13 and segi TVAL and name  H41) 1.9 0.2 0.3
+assi (resi 22 and segi TVAL and name N7 ) (resid 46 and segi TVAL and name  H1 ) 1.9 0.2 0.3 ! 22-46 TRIPLET INTERACTION
+assi (resi 22 and segi TVAL and name O6 ) (resid 46 and segi TVAL and name  H21) 1.9 0.2 0.3 ! 22-46 TRIPLET INTERACTION
+assi (resi 13 and segi TVAL and name H42) (resid  9 and segi TVAL and name  O2P) 1.9 0.2 0.3 ! BASE-PHOSPHATE
+assi (resi 46 and segi TVAL and name H22) (resid  9 and segi TVAL and name  O5') 1.9 0.2 0.3 ! BASE-PHOSPHATE
+
+assi (resi 23 and segi TVAL and name H61) (resid 12 and segi TVAL and name  O4 ) 1.9 0.2 0.3 ! A9-A23-U12 TRIPLET
+assi (resi 23 and segi TVAL and name N1 ) (resid 12 and segi TVAL and name  H3 ) 1.9 0.2 0.3 
+assi (resi 23 and segi TVAL and name H62) (resid  9 and segi TVAL and name  N7 ) 1.9 0.2 0.3 
+assi (resi 23 and segi TVAL and name N7 ) (resid  9 and segi TVAL and name  H62) 1.9 0.2 0.3 
+
+assi (resi 24 and segi TVAL and name H21) (resid 11 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 24 and segi TVAL and name H1 ) (resid 11 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 24 and segi TVAL and name O6 ) (resid 11 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi 10 and segi TVAL and name H21) (resid 25 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 10 and segi TVAL and name H1 ) (resid 25 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 10 and segi TVAL and name O6 ) (resid 25 and segi TVAL and name  H41) 1.9 0.2 0.3
+assi (resi 10 and segi TVAL and name O6 ) (resid 45 and segi TVAL and name  H22) 1.9 0.2 0.3  ! 10-45 LONE HB
+
+assi (resi 26 and segi TVAL and name H61) (resid 44 and segi TVAL and name  O6 ) 1.9 0.2 0.3 ! A-G
+assi (resi 26 and segi TVAL and name N1 ) (resid 44 and segi TVAL and name  H1 ) 1.9 0.2 0.3  
+
+assi (resi 43 and segi TVAL and name H21) (resid 27 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 43 and segi TVAL and name H1 ) (resid 27 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 43 and segi TVAL and name O6 ) (resid 27 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi 42 and segi TVAL and name H21) (resid 28 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 42 and segi TVAL and name H1 ) (resid 28 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 42 and segi TVAL and name O6 ) (resid 28 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi 29 and segi TVAL and name O4 ) (resid 41 and segi TVAL and name  H61) 1.9 0.2 0.3 ! U-A
+assi (resi 29 and segi TVAL and name H3 ) (resid 41 and segi TVAL and name  N1 ) 1.9 0.2 0.3 ! 
+
+assi (resi 40 and segi TVAL and name H21) (resid 30 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 40 and segi TVAL and name H1 ) (resid 30 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 40 and segi TVAL and name O6 ) (resid 30 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi 39 and segi TVAL and name H21) (resid 31 and segi TVAL and name  O2 ) 1.9 0.2 0.3 ! G-C W-C
+assi (resi 39 and segi TVAL and name H1 ) (resid 31 and segi TVAL and name  N3 ) 1.9 0.2 0.3
+assi (resi 39 and segi TVAL and name O6 ) (resid 31 and segi TVAL and name  H41) 1.9 0.2 0.3
+
+assi (resi 32 and segi TVAL and name O2 ) (resid 38 and segi TVAL and name  H61) 1.9 0.2 0.3 
+
+assi (resi 33 and segi TVAL and name H3 ) (resid 36 and segi TVAL and name  O2P) 1.9 0.2 0.3 
+
+assi (resi 33 and segi TVAL and name HO2')(resid 35 and segi TVAL and name  N7 ) 1.9 0.2 0.3 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

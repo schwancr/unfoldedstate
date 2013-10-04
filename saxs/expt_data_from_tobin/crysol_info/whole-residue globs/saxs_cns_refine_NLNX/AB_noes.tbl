@@ -1,0 +1,24 @@
+assign (segi A and resi 560 and name CA) (segi B and resi 560 and name CA) 16.0 16.0 0.0
+assign (segi A and resi 557 and name CA) (segi B and resi 557 and name CA) 16.0 16.0 0.0
+assign (segi A and resi 553 and name CA) (segi B and resi 553 and name CA) 16.0 16.0 0.0
+assign (segi A and resi 549 and name CA) (segi B and resi 549 and name CA) 16.0 16.0 0.0
+assign (segi A and resi 545 and name CA) (segi B and resi 545 and name CA) 16.0 16.0 0.0
+
+assign (segi A and resi 376 and name CA) (segi B and resi 376 and name CA) 16.0 16.0 0.0
+assign (segi A and resi 379 and name CA) (segi B and resi 379 and name CA) 16.0 16.0 0.0
+assign (segi A and resi 383 and name CA) (segi B and resi 383 and name CA) 16.0 16.0 0.0
+
+assign (segi A and resi 379 and name CA) (segi B and resi 557 and name CA) 10.0 10.0 0.0
+assign (segi A and resi 379 and name CA) (segi B and resi 553 and name CA) 10.0 10.0 0.0
+
+assign (segi A and resi 383 and name CA) (segi B and resi 549 and name CA) 10.0 10.0 0.0
+assign (segi A and resi 383 and name CA) (segi B and resi 553 and name CA) 10.0 10.0 0.0
+
+assign (segi B and resi 379 and name CA) (segi A and resi 557 and name CA) 10.0 10.0 0.0
+assign (segi B and resi 379 and name CA) (segi A and resi 553 and name CA) 10.0 10.0 0.0
+
+assign (segi B and resi 383 and name CA) (segi A and resi 549 and name CA) 10.0 10.0 0.0
+assign (segi B and resi 383 and name CA) (segi A and resi 553 and name CA) 10.0 10.0 0.0
+
+
+

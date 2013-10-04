@@ -1,0 +1,295 @@
+!last strand - stuff that's missing
+assign (don and resid 35 and segid A and name HN )
+       (acc and resid 42 and segid A and  name O )
+
+assign (don and resid 35 and segid B and name HN )
+       (acc and resid 42 and segid B and  name O )
+
+ assign (don and resid 38 and segid A and name HN )
+        (acc and resid 22 and segid A and  name O )
+                                                                                 
+ assign (don and resid 38 and segid B and name HN )
+        (acc and resid 22 and segid B and  name O )
+
+!assign (don and resid 38 and segid A and name HN )
+!       (acc and resid 21 and segid A and  name O )
+                                                                                
+!assign (don and resid 38 and segid B and name HN )
+!       (acc and resid 21 and segid B and  name O )
+
+
+
+! original hbdb
+assign (don and resid 67 and segid A and name HN )
+       (acc and resid 23 and segid A and  name O )
+
+assign (don and resid 36 and segid A and name HN )
+       (acc and resid 24 and segid A and  name O )
+
+assign (don and resid 69 and segid A and name HN )
+       (acc and resid 25 and segid A and  name O )
+!sometimes in,sometimes not - watch!
+assign (don and resid 34 and segid A and name HN )
+       (acc and resid 26 and segid A and  name O )
+!Alex suggests
+assign (don and resid 71 and segid A and name HN )
+       (acc and resid 27 and segid A and  name O )
+assign (don and resid 71 and segid B and name HN )
+       (acc and resid 27 and segid B and  name O )
+!2nd iter
+assign (don and resid 28 and segid A and name HN )
+       (acc and resid 32 and segid A and  name O )
+!2nd iter - unclear pairing could be to 44
+assign (don and resid 45 and segid A and name HN )
+       (acc and resid 33 and segid A and  name O )
+
+assign (don and resid 26 and segid A and name HN )
+       (acc and resid 34 and segid A and  name O )
+
+assign (don and resid 42 and segid A and name HN )
+       (acc and resid 35 and segid A and  name O )
+
+assign (don and resid 24 and segid A and name HN )
+       (acc and resid 36 and segid A and  name O )
+!3 out of 4
+assign (acc and resid 37 and segid A and name O )
+       (don and resid 40 and segid A and name HN ) 
+!3 oo 4
+assign (don and resid 37 and segid A and name HN )
+       (acc and resid 40 and segid A and  name O )
+!3oo4 - 1oo3 with RDCs strong
+assign (don and resid 33 and segid A and name HN )
+       (acc and resid 45 and segid A and  name O )
+
+assign (don and resid 50 and segid A and name HN )
+       (acc and resid 46 and segid A and  name O )
+!helix 1
+assign (don and resid 51 and segid A and name HN )
+       (acc and resid 47 and segid A and  name O )
+! 2nd iter
+assign (don and resid 52 and segid A and name HN )
+       (acc and resid 48 and segid A and  name O )
+
+assign (don and resid 53 and segid A and name HN )
+       (acc and resid 49 and segid A and  name O )
+
+assign (don and resid 54 and segid A and name HN )
+       (acc and resid 50 and segid A and  name O )
+
+assign (don and resid 55 and segid A and name HN )
+       (acc and resid 51 and segid A and  name O )
+
+assign (don and resid 56 and segid A and name HN )
+       (acc and resid 52 and segid A and  name O )
+
+assign (don and resid 57 and segid A and name HN )
+       (acc and resid 53 and segid A and  name O )
+
+!3oo4
+assign (don and resid 58 and segid A and name HN )
+       (acc and resid 54 and segid A and  name O )
+!3oo4
+assign (don and resid 59 and segid A and name HN )
+       (acc and resid 55 and segid A and  name O )
+!Alex
+assign (don and resid 60 and segid A and name HN )
+       (acc and resid 56 and segid A and  name O )
+assign (don and resid 60 and segid B and name HN )
+       (acc and resid 56 and segid B and  name O )
+
+!3rd iter
+assign (don and resid 61 and segid A and name HN )
+       (acc and resid 57 and segid A and  name O )
+!end of helix 1
+
+assign (don and resid 23 and segid A and name HN )
+       (acc and resid 65 and segid A and  name O )
+
+assign (don and resid 25 and segid A and name HN )
+       (acc and resid 67 and segid A and  name O )
+
+assign (don and resid 27 and segid A and name HN )
+       (acc and resid 69 and segid A and  name O )
+assign (don and resid 27 and segid B and name HN )
+       (acc and resid 69 and segid B and  name O )
+
+!3oo4
+assign (don and resid 68 and segid A and name HN )
+       (acc and resid 68 and segid B and  name O )
+
+
+!3oo4 - turn to 2nd helix
+assign (don and resid 74 and segid A and name HN )
+       (acc and resid 71 and segid A and  name O )
+!2nd helix
+!3oo4 - new. pro also to 79HN I think.
+!assign (don and resid 79 and segid A and name HN )
+!       (acc and resid 75 and segid A and  name O )
+
+ assign (don and resid 78 and segid A and name HN )
+        (acc and resid 75 and segid A and  name O )
+
+
+assign (don and resid 80 and segid A and name HN )
+       (acc and resid 76 and segid A and  name O )
+
+assign (don and resid 81 and segid A and name HN )
+       (acc and resid 77 and segid A and  name O )
+
+assign (don and resid 82 and segid A and name HN )
+       (acc and resid 78 and segid A and  name O )
+
+assign (don and resid 83 and segid A and name HN )
+       (acc and resid 79 and segid A and  name O )
+
+assign (don and resid 84 and segid A and name HN )
+       (acc and resid 80 and segid A and  name O )
+!3oo4
+assign (don and resid 85 and segid A and name HN )
+       (acc and resid 81 and segid A and  name O )
+
+!hbdb cant make up its mind...82-86 or 83-86.
+assign (don and resid 86 and segid A and name HN )
+       (acc and resid 82 and segid A and  name O )
+assign (don and resid 86 and segid B and name HN )
+       (acc and resid 82 and segid B and  name O )
+
+assign (don and resid 87 and segid A and name HN )
+       (acc and resid 83 and segid A and  name O )
+assign (don and resid 87 and segid B and name HN )
+       (acc and resid 83 and segid B and  name O )
+
+assign (don and resid 88 and segid A and name HN )
+       (acc and resid 84 and segid A and  name O )
+
+assign (don and resid 89 and segid A and name HN )
+       (acc and resid 85 and segid A and  name O )
+
+assign (don and resid 91 and segid A and name HN )
+       (acc and resid 86 and segid A and  name O )
+!3oo4 - missing with RDCs
+assign (don and resid 90 and segid A and name HN )
+       (acc and resid 87 and segid A and  name O )
+assign (don and resid 67 and segid B and name HN )
+       (acc and resid 23 and segid B and  name O )
+
+assign (don and resid 36 and segid B and name HN )
+       (acc and resid 24 and segid B and  name O )
+
+assign (don and resid 69 and segid B and name HN )
+       (acc and resid 25 and segid B and  name O )
+!sometimes in,sometimes not - watch!
+assign (don and resid 34 and segid B and name HN )
+       (acc and resid 26 and segid B and  name O )
+!2nd iter
+assign (don and resid 28 and segid B and name HN )
+       (acc and resid 32 and segid B and  name O )
+!2nd iter - could be to 44
+assign (don and resid 45 and segid B and name HN )
+       (acc and resid 33 and segid B and  name O )
+
+
+assign (don and resid 26 and segid B and name HN )
+       (acc and resid 34 and segid B and  name O )
+
+assign (don and resid 42 and segid B and name HN )
+       (acc and resid 35 and segid B and  name O )
+
+assign (don and resid 24 and segid B and name HN )
+       (acc and resid 36 and segid B and  name O )
+!3 out of 4
+assign (acc and resid 37 and segid B and name O )
+       (don and resid 40 and segid B and name HN ) 
+!3 oo 4
+assign (don and resid 37 and segid B and name HN )
+       (acc and resid 40 and segid B and  name O )
+!3oo4 - 1oo3 with RDCs strong
+assign (don and resid 33 and segid B and name HN )
+       (acc and resid 45 and segid B and  name O )
+
+assign (don and resid 50 and segid B and name HN )
+       (acc and resid 46 and segid B and  name O )
+!helix 1
+assign (don and resid 51 and segid B and name HN )
+       (acc and resid 47 and segid B and  name O )
+! 2nd iter
+assign (don and resid 52 and segid B and name HN )
+       (acc and resid 48 and segid B and  name O )
+
+assign (don and resid 53 and segid B and name HN )
+       (acc and resid 49 and segid B and  name O )
+
+assign (don and resid 54 and segid B and name HN )
+       (acc and resid 50 and segid B and  name O )
+
+assign (don and resid 55 and segid B and name HN )
+       (acc and resid 51 and segid B and  name O )
+
+assign (don and resid 56 and segid B and name HN )
+       (acc and resid 52 and segid B and  name O )
+
+assign (don and resid 57 and segid B and name HN )
+       (acc and resid 53 and segid B and  name O )
+
+!3oo4
+assign (don and resid 58 and segid B and name HN )
+       (acc and resid 54 and segid B and  name O )
+!3oo4
+assign (don and resid 59 and segid B and name HN )
+       (acc and resid 55 and segid B and  name O )
+!3rd iter
+assign (don and resid 61 and segid B and name HN )
+       (acc and resid 57 and segid B and  name O )
+!end of helix 1
+
+assign (don and resid 23 and segid B and name HN )
+       (acc and resid 65 and segid B and  name O )
+
+assign (don and resid 25 and segid B and name HN )
+       (acc and resid 67 and segid B and  name O )
+!3oo4
+assign (don and resid 68 and segid B and name HN )
+       (acc and resid 68 and segid A and  name O )
+!3oo4 - turn to 2nd helix
+!assign (don and resid 74 and segid B and name HN )
+!       (acc and resid 71 and segid B and  name O )
+!2nd helix
+!3oo4 - new. pro also to 79HN I think.
+!assign (don and resid 79 and segid B and name HN )
+!       (acc and resid 75 and segid B and  name O )
+
+ assign (don and resid 78 and segid B and name HN )
+        (acc and resid 75 and segid B and  name O )
+
+
+assign (don and resid 80 and segid B and name HN )
+       (acc and resid 76 and segid B and  name O )
+
+assign (don and resid 81 and segid B and name HN )
+       (acc and resid 77 and segid B and  name O )
+
+assign (don and resid 82 and segid B and name HN )
+       (acc and resid 78 and segid B and  name O )
+
+assign (don and resid 83 and segid B and name HN )
+       (acc and resid 79 and segid B and  name O )
+
+assign (don and resid 84 and segid B and name HN )
+       (acc and resid 80 and segid B and  name O )
+!3oo4
+assign (don and resid 85 and segid B and name HN )
+       (acc and resid 81 and segid B and  name O )
+
+!hbdb cant make up its mind...82-86 or 83-86.
+
+assign (don and resid 88 and segid B and name HN )
+       (acc and resid 84 and segid B and  name O )
+
+assign (don and resid 89 and segid B and name HN )
+       (acc and resid 85 and segid B and  name O )
+
+assign (don and resid 91 and segid B and name HN )
+       (acc and resid 86 and segid B and  name O )
+!3oo4 - missing with RDCs
+assign (don and resid 90 and segid B and name HN )
+       (acc and resid 87 and segid B and  name O )

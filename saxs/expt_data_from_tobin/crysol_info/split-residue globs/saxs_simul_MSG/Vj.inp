@@ -1,0 +1,11 @@
+    Displaced solvent volume (A^3), charge (e-) and radius (A)
+	Order of atoms has to be consistent with formfact.inp!
+C  16.440  6.0  1.58
+O   9.130  8.0  1.30
+N   2.490  7.0  0.84
+H   5.150  1.0  1.07
+S  19.860 16.0  1.68
+P   5.729 15.0  1.11
+Na  6.538 11.0  1.16       1.86 neutral 1.16 ion
+K  14.710 19.0  1.52       2.27 neutral 1.52 ion
+

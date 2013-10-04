@@ -1,0 +1,88 @@
+  85
+ATOM     43  C1' GUA     2       2  H1' 
+ATOM     60  C2' GUA     2       2  H2' 
+ATOM     64  C3' GUA     2       2  H3' 
+ATOM     40  C4' GUA     2       2  H4' 
+ATOM     37  C5' GUA     3       3  H5'H5''
+ATOM     62  O2' GUA    10       2 HO2'
+ATOM     66  O3' GUA     9       1 
+ATOM     42  O4' GUA     9       1 
+ATOM     36  O5' GUA     9       1 
+ATOM     34  O1P GUA     9       1 
+ATOM     35  O2P GUA     9       1 
+ATOM     33  P   GUA    13       1 
+ATOM     52  N1  GUA     6       2  H1
+ATOM     48  C2  GUA     1       1 
+ATOM     49  N2  GUA     7       3  H21 H22
+ATOM     47  N3  GUA     5       1 
+ATOM     46  C4  GUA     1       1 
+ATOM     56  C5  GUA     1       1 
+ATOM     54  C6  GUA     1       1 
+ATOM     55  O6  GUA     9       1 
+ATOM     57  N7  GUA     5       1 
+ATOM     58  C8  GUA     2       2  H8
+ATOM     45  N9  GUA     5       1 
+ATOM     43  C1' CYT     2       2  H1'
+ATOM     60  C2' CYT     2       2  H2'
+ATOM     64  C3' CYT     2       2  H3'
+ATOM     40  C4' CYT     2       2  H4'
+ATOM     37  C5' CYT     3       3  H5'H5''
+ATOM     62  O2' CYT    10       2 HO2'
+ATOM     66  O3' CYT     9       1 
+ATOM     42  O4' CYT     9       1 
+ATOM     36  O5' CYT     9       1 
+ATOM     34  O1P CYT     9       1 
+ATOM     35  O2P CYT     9       1 
+ATOM     33  P   CYT    13       1 
+ATOM    337  N1  CYT     5       1 
+ATOM    340  C2  CYT     1       1 
+ATOM    341  O2  CYT     9       1 
+ATOM    342  N3  CYT     5       1 
+ATOM    343  C4  CYT     1       1 
+ATOM    344  N4  CYT     7       3  H41 H42
+ATOM    347  C5  CYT     2       2  H5
+ATOM    338  C6  CYT     2       2  H6
+ATOM     43  C1' ADE     2       2  H1'
+ATOM     60  C2' ADE     2       2  H2'
+ATOM     64  C3' ADE     2       2  H3'
+ATOM     40  C4' ADE     2       2  H4'
+ATOM     37  C5' ADE     3       3  H5'H5''
+ATOM     62  O2' ADE    10       2 HO2'
+ATOM     66  O3' ADE     9       1 
+ATOM     42  O4' ADE     9       1 
+ATOM     36  O5' ADE     9       1 
+ATOM     34  O1P ADE     9       1 
+ATOM     35  O2P ADE     9       1 
+ATOM     33  P   ADE    13       1 
+ATOM    182  N1  ADE     5       1 
+ATOM    180  C2  ADE     2       2  H2
+ATOM    179  N3  ADE     5       1 
+ATOM    178  C4  ADE     1       1 
+ATOM    187  C5  ADE     1       1 
+ATOM    183  C6  ADE     1       1 
+ATOM    184  N6  ADE     7       3  H61 H62 
+ATOM    188  N7  ADE     5       1 
+ATOM    189  C8  ADE     2       2  H8
+ATOM    177  N9  ADE     5       1 
+ATOM     43  C1' URI     2       2  H1'
+ATOM     60  C2' URI     2       2  H2'
+ATOM     64  C3' URI     2       2  H3'
+ATOM     40  C4' URI     2       2  H4'
+ATOM     37  C5' URI     3       3  H5'H5''
+ATOM     62  O2' URI    10       2 HO2'
+ATOM     66  O3' URI     9       1 
+ATOM     42  O4' URI     9       1 
+ATOM     36  O5' URI     9       1 
+ATOM     34  O1P URI     9       1 
+ATOM     35  O2P URI     9       1 
+ATOM     33  P   URI    13       1 
+ATOM    113  N1  URI     5       1 
+ATOM    116  C2  URI     1       1 
+ATOM    117  O2  URI     9       1 
+ATOM    118  N3  URI     6       2  H3
+ATOM    120  C4  URI     1       1 
+ATOM    121  O4  URI     9       1 
+ATOM    122  C5  URI     2       2  H5
+ATOM    114  C6  URI     2       2  H6
+ 
+             atom res iatype    nglob

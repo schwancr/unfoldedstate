@@ -1,0 +1,139 @@
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi   1 and name N1 )
+       ( segi TVAL and resi   1 and name H1 )   -1.39  0.0
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi   2 and name N1 )
+       ( segi TVAL and resi   2 and name H1 )   0.11  0.0
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi   4 and name N3 )
+       ( segi TVAL and resi   4 and name H3 )   0.84  0.0
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi   5 and name N1 )
+       ( segi TVAL and resi   5 and name H1 )   -1.24  0.0
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi   7 and name N3 )
+       ( segi TVAL and resi   7 and name H3 )   -1.05  0.0
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi   8 and name N3 )
+       ( segi TVAL and resi   8 and name H3 )   -0.75  0.0
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  12 and name N3 )
+       ( segi TVAL and resi  12 and name H3 )   -0.21  0.0
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  15 and name N1 )
+       ( segi TVAL and resi  15 and name H1 )   -1.23  0.0
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  24 and name N1 )
+       ( segi TVAL and resi  24 and name H1 )   -0.69  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  29 and name N3 )
+       ( segi TVAL and resi  29 and name H3 )   -1.10  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  40 and name N1 )
+       ( segi TVAL and resi  40 and name H1 )  -2.38  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  46 and name N1 )
+       ( segi TVAL and resi  46 and name H1 )   -1.66  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  49 and name N1 )
+       ( segi TVAL and resi  49 and name H1 )    0.14  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  50 and name N1 )
+       ( segi TVAL and resi  50 and name H1 )    0.27  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  52 and name N1 )
+       ( segi TVAL and resi  52 and name H1 )   -1.90  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  54 and name N3 )
+       ( segi TVAL and resi  54 and name H3 )   -0.08  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  55 and name N3 )
+       ( segi TVAL and resi  55 and name H3 )   1.17  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  63 and name N1 )
+       ( segi TVAL and resi  63 and name H1 )   0.47  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  64 and name N3 )
+       ( segi TVAL and resi  64 and name H3 )  1.06  0.0 
+
+assign (               resi 501 and name OO )
+       (               resi 501 and name Z  )
+       (               resi 501 and name X  )
+       (               resi 501 and name Y  )
+       ( segi TVAL and resi  67 and name N3 )
+       ( segi TVAL and resi  67 and name H3 )   -1.22  0.0 

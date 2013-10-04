@@ -1,0 +1,7 @@
+file globdef   "glob_res_cns.dat"
+file glob_fs   "glob_fs_nisa.dat"
+file saxsdat   "nisamerge_x10.dat"
+file is_corr   "nisa_it1_globcorr.dat"
+file h2o_cor   "nisa_it1_watcorr.dat"
+
+

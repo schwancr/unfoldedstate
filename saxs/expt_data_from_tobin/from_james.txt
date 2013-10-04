@@ -1,0 +1,17 @@
+TJL: These refer to the protein G SAXS data (wt_protein_G/ and desG/)
+
+
+10 C. protein was refolded at a final concentation of 1.5 M GdmCl, pH 4.5.
+
+For the blank, 2 ms, and 10 ms data points, these were done in continuous flow mode, so there was sample flowing continuously through the beam.  the beam is <50 um wide, the cuvette is ~ 1 mm thick, and the flow rate was 8 mL/s.  i calculate an illuminated volume of <2 nL, which gives an upper bond residence time in the beam of 250 ns.  so even if the protein is being damaged by the X-rays,it is being swept out of the observation volume before it can aggregate.
+
+the other points were done in stopped flow mode at 0 flow speed.  so each point here has been exposed to x-rays for its whole lifetime.
+
+
+here's the data.
+the numbers correspond to the time in ms after initiating refolding.
+the .dat files contain tab separated q, I(q), error values.
+the _bsub images show the buffer, buffer+sample, and subtracted data
+the _raw images show all of the buffer+sample shots.  they are colored by cluster number.  the largest cluster was chosen to be subtracted.
+
+the upturn at low q is almost certainly an artifact of the high protein concentration used.  i would throw out all data < 0.01 q, maybe even out to 0.02 q.  the desG samples also mostly folded, so there is very little change between the first point and the last.  if you need to know anything about the experimental conditions, just ask.

@@ -1,0 +1,257 @@
+define( md.seed=823641; )
+set seed=&md.seed end
+set message=on echo=on end
+
+parameter @prot.par @axis.par end
+structure @1y8b.mtf @axis.mtf end
+
+!*****SAXS potential is defined here**********
+saxs
+ ntyp = 37     ! # of glob types
+ ndat = 25     ! # of data points (193)
+ kfor = 50.0   ! force const 
+ prnf = 1000   ! printing frequency
+ i0   = 12.11
+ @saxs_files_msg.dat
+end
+!*********************************************
+
+coor @msg_init_hbdb3.pdb
+dele sele (not known) end
+coor copy end
+
+! ***** Non-bonded parameters *****
+parameter                      
+  nbonds
+    repel=0.8
+    rconst = 4.0
+    rexp=2 irexp=2
+    nbxmod = 3                 
+    wmin=0.01 
+    cutnb=5.0 
+    tolerance=0.5 
+  end
+end
+
+hbdb
+ kdir = 0.25 ! directional (3d) dforce const - final energy per HB should be ~-4.5 kT
+ klin = 0.08 ! linearity (E(ohn|oh) force const- final energy per HB should be ~0.5 kT
+ nseg = 1
+ nmin =   3 ! min res # to include in the HBDB 
+ nmax = 722 ! max res # to include in the HBDB 
+ ohcut   =  2.60
+ coh1cut = 100.0
+ coh2cut = 100.0
+ ohncut  = 100.0
+ updfrq = 1000
+ prnfrq = 1000
+ freemode  = 1 ! free mod flag (off)
+ fixedmode = 0 ! fixed list mode flag (on)
+ mfdir  = 0
+ mflin  = 0
+ kmfd   = 0.0
+ kmfl   = 0.0
+ renf =  2.3d0 
+ kenf = 30.0d0 
+ @hbdb_files.dat ! location of the PMF files
+end
+
+{
+! ********* NOEs **********
+noe
+  reset
+  nres = 4000
+  set message=off echo=off end
+  class hnhn @ms_hn_seq_lr.tbl
+  class meth @ms_methyl.tbl
+  class extr @noe_extra.tbl
+  ceiling=1000  
+  potential  * softsquare
+  sqoffset   * 0.0  
+  sqconstant * 1.0  
+  sqexponent * 2  
+  soexponent * 1  
+  asymptote  * 1.0 
+  rswitch    * 0.5  
+  averaging  * r-6
+  scale      * 70.0
+end
+}
+
+{
+! ****** Dihedral angles ********
+restraints dihedral
+  nass  = 2000
+  scale = 500.0
+  set message=off echo=off end
+  @ms_dihe_new.tbl
+end
+}
+
+{
+! ******** Dipolar couplings ********
+sani
+  reset
+  nres=1000
+  potential harmonic
+  class DNH   
+  force 0.01
+  coeff 0.0 -18.5 0.45  
+  set message=off echo=off end 
+  @ms_hn_dip.tbl
+end
+
+! ******** CSA restraints ********
+dcsa
+  nres=1000
+  class CO
+  type carb
+  scale -21652.1
+  force 0.01
+  potential harmonic 
+  coeff 0.0 -18.5 0.45
+  sigma -74.7 -11.8 86.5
+  @ms_csa.tbl
+end
+}
+
+! ************ Rg restraint *********
+coll 
+  assign (resid 5:720) 50.0 26.0 
+  scale 1.0 
+end
+
+set message=on echo=on end 
+
+do (refx=x) (all)
+do (refy=y) (all)
+do (refz=z) (all)
+
+do (mass  = 100.0) (all) 
+do (mass  =  30.0) (resid 800)
+
+do (fbeta=10) (all)
+
+fix selection = (resid 800 and name OO) end
+
+!******************SAXS flag has to be set here**********************************
+flags exclude * include bond angle impr vdw noe cdih coll dcsa sani saxs hbdb end
+igroup interaction (all) (all) weights * 1 end end
+!********************************************************************************
+
+
+!*********** Main loop **********
+
+evaluate ( $nfile  = 20)
+evaluate ( $ifile  =  1)
+
+
+evaluate ( $imax = $nfile+2 )
+while ( $ifile < $imax ) loop main
+
+  evaluate ( $t_ini  =              1001.0)
+  evaluate ( $t_fin  =                 1.0)
+  evaluate ( $tsteps =                 200)
+  evaluate ( $nsteps =                 250)
+  evaluate ( $dt = ($t_ini-$t_fin)/$tsteps)
+
+  evaluate ($ini_sani = 0.050)
+  evaluate ($fin_sani = 0.050)
+  evaluate ($sani_fac   = ($fin_sani/$ini_sani)^(1/($tsteps+1)))
+  evaluate ($ksani      = $ini_sani)
+
+  evaluate ($ini_cani = 0.0049)
+  evaluate ($fin_cani = 0.0049)
+  evaluate ($cani_fac   = ($fin_cani/$ini_cani)^(1/($tsteps+1)))
+  evaluate ($kcani      = $ini_cani)
+
+  !*********** simulated annealing loop **********
+  evaluate ($t_curr =  $t_ini)
+  evaluate ($nsim   =       1)
+  evaluate ($nmax = $tsteps+2)
+  while    ($nsim < $nmax) loop cool
+
+    evaluate ($ksani=$ksani*$sani_fac)
+    evaluate ($kcani=$kcani*$cani_fac)
+    sani class DNH  force $ksani    end
+    dcsa class CO   force $kcani    end
+
+    do (vx=maxwell($t_curr)) (all)
+    do (vy=maxwell($t_curr)) (all)
+    do (vz=maxwell($t_curr)) (all)
+
+    dynamics  cartesian
+      cmremove=false
+      vscaling=false
+      tcoupling=true
+      timestep=0.004
+      nstep=$nsteps
+      nprint=$nsteps
+      temperature=$t_curr           
+    end 
+
+    evaluate ($t_curr = $t_curr-$dt)
+    evaluate ($nsim = $nsim +1)
+
+    evaluate ($filename="interm.pdb")
+    set print=$filename end
+    coll print end
+    saxs print end
+    remarks =============================================================== 
+    remarks energies: bonds,angles,improper,vdw,noe,cdih,sani,dcsa,coll,saxs
+    remarks $bond,$angl,$impr,$vdw,$noe,$cdih,$sani,$dcsa,$coll,$saxs
+    remarks ===============================================================
+    write coordinates output =$filename end
+
+
+  end loop cool
+
+  minimize powell nstep=200  nprint=10 end
+
+  evaluate ($filename="msg_saxs_"+encode($ifile)+".pdb")
+  set print=$filename end
+  print threshold=0.5 noe
+  evaluate ($rms_noe=$result)
+  evaluate ($violations_noe=$violations)
+  print threshold=5.0 cdih
+  evaluate ($rms_cdih=$result)
+  evaluate ($violations_cdih=$violations)
+  sani print threshold=0.0 class DNH end
+  evaluate ($rms_sani=$result)
+  dcsa print threshold=0.0 class CO  end
+  evaluate ($rms_dcsa=$result)
+  print thres=0.05 bonds          
+  evaluate ($rms_bonds=$result)
+  print thres=5. angles
+  evaluate ($rms_angles=$result)
+  print thres=5. impropers
+  evaluate ($rms_impropers=$result)
+! *****
+  saxs print end
+  coll print end
+  hbdb print end
+  remarks =============================================================== 
+  remarks Empirical energies:  overall,bonds,angles,improper,vdw,coll
+  remarks energies: $ener,$bond,$angl,$impr,$vdw,$coll
+  remarks =============================================================== 
+  remarks Data  fit energies:  noe,cdih,sani,dcsa,saxs
+  remarks energies: $noe,$cdih,$sani,$dcsa,$saxs
+  remarks =============================================================== 
+  remarks  rms noe, cdih: $rms_noe, $rms_cdih
+  remarks =============================================================== 
+  remarks  rms bonds,angles,impropers:$rms_bonds, $rms_angles, $rms_impropers
+  remarks =============================================================== 
+  remarks N-HN RDC rms: $rms_sani
+  remarks ===============================================================  
+  remarks CO   CSA rms: $rms_dcsa
+  remarks ===============================================================
+
+  !write coordinates sele= (not resn ANI) output =$filename end
+  write coordinates output =$filename end
+  evaluate ($ifile = $ifile +1)
+
+end loop main
+
+stop
+
+

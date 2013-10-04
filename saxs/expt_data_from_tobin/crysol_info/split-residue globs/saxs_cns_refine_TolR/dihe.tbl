@@ -1,0 +1,566 @@
+!aromatic chi angles.
+assign ( segid A and resid 33 and  name n )  ( segid A and resid 33 and name ca )
+       ( segid A and resid 33 and name cb )  ( segid A and resid 33 and name cg ) 1.0 -60 30 2
+assign ( segid B and resid 33 and  name n )  ( segid B and resid 33 and name ca )
+       ( segid B and resid 33 and name cb )  ( segid B and resid 33 and name cg ) 1.0 -60 30 2
+
+assign ( segid A and resid 66 and  name n )  ( segid A and resid 66 and name ca )
+       ( segid A and resid 66 and name cb )  ( segid A and resid 66 and name cg ) 1.0 -60 30 2
+assign ( segid B and resid 66 and  name n )  ( segid B and resid 66 and name ca )
+       ( segid B and resid 66 and name cb )  ( segid B and resid 66 and name cg ) 1.0 -60 30 2
+
+assign ( segid A and resid 76 and  name n )  ( segid A and resid 76 and name ca )
+       ( segid A and resid 76 and name cb )  ( segid A and resid 76 and name cg ) 1.0 180 30 2
+assign ( segid B and resid 76 and  name n )  ( segid B and resid 76 and name ca )
+       ( segid B and resid 76 and name cb )  ( segid B and resid 76 and name cg ) 1.0 180 30 2
+
+assign ( segid A and resid 58 and  name n )  ( segid A and resid 58 and name ca )
+       ( segid A and resid 58 and name cb )  ( segid A and resid 58 and name cg ) 1.0 180 30 2
+assign ( segid B and resid 58 and  name n )  ( segid B and resid 58 and name ca )
+       ( segid B and resid 58 and name cb )  ( segid B and resid 58 and name cg ) 1.0 180 30 2
+
+assign ( segid A and resid 87 and  name n )  ( segid A and resid 87 and name ca )
+       ( segid A and resid 87 and name cb )  ( segid A and resid 87 and name cg ) 1.0 180 30 2
+assign ( segid B and resid 87 and  name n )  ( segid B and resid 87 and name ca )
+       ( segid B and resid 87 and name cb )  ( segid B and resid 87 and name cg ) 1.0 180 30 2
+
+!From XPLOR with gly c-ha rdc's included
+assign ( segid A and resid 38 and  name c )  ( segid A and resid 39 and name n )
+       ( segid A and resid 39 and name ca )  ( segid A and resid 39 and name c ) 1.0 87 45 2
+assign ( segid A and resid 37 and  name c )  ( segid A and resid 38 and name n )
+       ( segid A and resid 38 and name ca )  ( segid A and resid 38 and name c ) 1.0 57 45 2
+assign ( segid B and resid 38 and  name c )  ( segid B and resid 39 and name n )
+       ( segid B and resid 39 and name ca )  ( segid B and resid 39 and name c ) 1.0 87 45 2
+assign ( segid B and resid 37 and  name c )  ( segid B and resid 38 and name n )
+       ( segid B and resid 38 and name ca )  ( segid B and resid 38 and name c ) 1.0 57 45 2
+!these (69,70) caused all sorts of bond violations!
+!assign ( segid A and resid 69 and  name c )  ( segid A and resid 70 and name n )
+!       ( segid A and resid 70 and name ca )  ( segid A and resid 70 and name c ) 1.0 180 45 2
+!assign ( segid A and resid 70 and  name c )  ( segid A and resid 70 and name n )
+!       ( segid A and resid 70 and name ca )  ( segid A and resid 71 and name c ) 1.0 172 45 2
+!assign ( segid B and resid 69 and  name c )  ( segid B and resid 70 and name n )
+!       ( segid B and resid 70 and name ca )  ( segid B and resid 70 and name c ) 1.0 180 45 2
+!assign ( segid B and resid 70 and  name c )  ( segid B and resid 70 and name n )
+!       ( segid B and resid 70 and name ca )  ( segid B and resid 71 and name c ) 1.0 172 45 2
+
+!assign ( segid A and resid 68 and  name c )  ( segid A and resid 69 and name n )
+!       ( segid A and resid 69 and name ca )  ( segid A and resid 69 and name c ) 1.0 -162 45 2
+!assign ( segid A and resid 69 and  name c )  ( segid A and resid 69 and name n )
+!       ( segid A and resid 69 and name ca )  ( segid A and resid 70 and name c ) 1.0 172 45 2
+!assign ( segid B and resid 68 and  name c )  ( segid B and resid 69 and name n )
+!       ( segid B and resid 69 and name ca )  ( segid B and resid 69 and name c ) 1.0 -162 45 2
+!assign ( segid B and resid 69 and  name c )  ( segid B and resid 69 and name n )
+!       ( segid B and resid 69 and name ca )  ( segid B and resid 70 and name c ) 1.0 172 45 2
+
+!assign ( segid A and resid 39 and  name n )  ( segid A and resid 39 and name ca )
+!       ( segid A and resid 39 and name c )  ( segid A and resid 40 and name n ) 1.0 -14 30 2
+assign ( segid A and resid 38 and  name n )  ( segid A and resid 38 and name ca )
+       ( segid A and resid 38 and name c )  ( segid A and resid 39 and name n ) 1.0 30 45 2
+assign ( segid B and resid 38 and  name n )  ( segid B and resid 38 and name ca )
+       ( segid B and resid 38 and name c )  ( segid B and resid 39 and name n ) 1.0 30 45 2
+
+!assign ( segid A and resid 28 and  name c )  ( segid A and resid 29 and name n )
+!       ( segid A and resid 29 and name ca )  ( segid A and resid 29 and name c ) 1.0 -172 45 2
+!assign ( segid A and resid 29 and  name n )  ( segid A and resid 29 and name ca )
+!       ( segid A and resid 29 and name c )  ( segid A and resid 30 and name n ) 1.0 -150 45 2
+!assign ( segid B and resid 28 and  name c )  ( segid B and resid 29 and name n )
+!       ( segid B and resid 29 and name ca )  ( segid B and resid 29 and name c ) 1.0 -172 45 2
+!assign ( segid B and resid 29 and  name n )  ( segid B and resid 29 and name ca )
+!       ( segid B and resid 29 and name c )  ( segid B and resid 30 and name n ) 1.0 -150 45 2
+! From TALOS
+assign ( segid A and resid 27 and  name c )  ( segid A and resid 28 and name n )
+       ( segid A and resid 28 and name ca )  ( segid A and resid 28 and name c ) 1.0 -98 45 2
+assign ( segid B and resid 27 and  name c )  ( segid B and resid 28 and name n )
+       ( segid B and resid 28 and name ca )  ( segid B and resid 28 and name c ) 1.0 -98 45 2
+assign ( segid A and resid 28 and  name n )  ( segid A and resid 28 and name ca )
+       ( segid A and resid 28 and name c )  ( segid A and resid 29 and name n ) 1.0 -25 45 2
+assign ( segid B and resid 28 and  name n )  ( segid B and resid 28 and name ca )
+       ( segid B and resid 28 and name c )  ( segid B and resid 29 and name n ) 1.0 -25 45 2
+
+assign ( segid A and resid 61 and  name c )  ( segid A and resid 62 and name n )
+       ( segid A and resid 62 and name ca )  ( segid A and resid 62 and name c ) 1.0 -64 45 2
+assign ( segid B and resid 61 and  name c )  ( segid B and resid 62 and name n )
+       ( segid B and resid 62 and name ca )  ( segid B and resid 62 and name c ) 1.0 -64 45 2
+
+assign ( segid A and resid 62 and  name c )  ( segid A and resid 63 and name n )
+       ( segid A and resid 63 and name ca )  ( segid A and resid 63 and name c ) 1.0 -86 45 2
+assign ( segid B and resid 62 and  name c )  ( segid B and resid 63 and name n )
+       ( segid B and resid 63 and name ca )  ( segid B and resid 63 and name c ) 1.0 -86 45 2
+assign ( segid A and resid 63 and  name n )  ( segid A and resid 63 and name ca )
+       ( segid A and resid 63 and name c )  ( segid A and resid 64 and name n ) 1.0 0 45 2
+assign ( segid B and resid 63 and  name n )  ( segid B and resid 63 and name ca )
+       ( segid B and resid 63 and name c )  ( segid B and resid 64 and name n ) 1.0 0 45 2
+
+
+!assign ( segid A and resid 20 and  name c )  ( segid A and resid 21 and name n )
+!       ( segid A and resid 21 and name ca )  ( segid A and resid 21 and name c ) 1.0 -102 72 2
+assign ( segid A and resid 21 and  name n )  ( segid A and resid 21 and name ca )
+       ( segid A and resid 21 and name c )  ( segid A and resid 22 and name n ) 1.0 124 51 2
+assign ( segid A and resid 21 and  name c )  ( segid A and resid 22 and name n )
+       ( segid A and resid 22 and name ca )  ( segid A and resid 22 and name c ) 1.0 -63 21 2
+!assign ( segid A and resid 22 and  name n )  ( segid A and resid 22 and name ca )
+!       ( segid A and resid 22 and name c )  ( segid A and resid 23 and name n ) 1.0 141 21 2
+assign ( segid A and resid 22 and  name c )  ( segid A and resid 23 and name n )
+       ( segid A and resid 23 and name ca )  ( segid A and resid 23 and name c ) 1.0 -107 45 2
+assign ( segid A and resid 23 and  name n )  ( segid A and resid 23 and name ca )
+       ( segid A and resid 23 and name c )  ( segid A and resid 24 and name n ) 1.0 119 36 2
+assign ( segid A and resid 23 and  name c )  ( segid A and resid 24 and name n )
+       ( segid A and resid 24 and name ca )  ( segid A and resid 24 and name c ) 1.0 -115 36 2
+assign ( segid A and resid 24 and  name n )  ( segid A and resid 24 and name ca )
+       ( segid A and resid 24 and name c )  ( segid A and resid 25 and name n ) 1.0 127 42 2
+assign ( segid A and resid 24 and  name c )  ( segid A and resid 25 and name n )
+       ( segid A and resid 25 and name ca )  ( segid A and resid 25 and name c ) 1.0 -114 36 2
+assign ( segid A and resid 25 and  name n )  ( segid A and resid 25 and name ca )
+       ( segid A and resid 25 and name c )  ( segid A and resid 26 and name n ) 1.0 127 27 2
+assign ( segid A and resid 25 and  name c )  ( segid A and resid 26 and name n )
+       ( segid A and resid 26 and name ca )  ( segid A and resid 26 and name c ) 1.0 -120 75 2
+assign ( segid A and resid 26 and  name n )  ( segid A and resid 26 and name ca )
+       ( segid A and resid 26 and name c )  ( segid A and resid 27 and name n ) 1.0 134 51 2
+assign ( segid A and resid 26 and  name c )  ( segid A and resid 27 and name n )
+       ( segid A and resid 27 and name ca )  ( segid A and resid 27 and name c ) 1.0 -98 45 2
+assign ( segid A and resid 27 and  name n )  ( segid A and resid 27 and name ca )
+       ( segid A and resid 27 and name c )  ( segid A and resid 28 and name n ) 1.0 122 33 2
+!assign ( segid A and resid 29 and  name c )  ( segid A and resid 30 and name n )
+!       ( segid A and resid 30 and name ca )  ( segid A and resid 30 and name c ) 1.0 -70 54 2
+!assign ( segid A and resid 30 and  name n )  ( segid A and resid 30 and name ca )
+!       ( segid A and resid 30 and name c )  ( segid A and resid 31 and name n ) 1.0 129 36 2
+!assign ( segid A and resid 30 and  name c )  ( segid A and resid 31 and name n )
+!       ( segid A and resid 31 and name ca )  ( segid A and resid 31 and name c ) 1.0 86 27 2
+assign ( segid A and resid 31 and  name n )  ( segid A and resid 31 and name ca )
+       ( segid A and resid 31 and name c )  ( segid A and resid 32 and name n ) 1.0 -4 30 2
+assign ( segid A and resid 31 and  name c )  ( segid A and resid 32 and name n )
+       ( segid A and resid 32 and name ca )  ( segid A and resid 32 and name c ) 1.0 -107 63 2
+!assign ( segid A and resid 32 and  name n )  ( segid A and resid 32 and name ca )
+!       ( segid A and resid 32 and name c )  ( segid A and resid 33 and name n ) 1.0 144 54 2
+assign ( segid A and resid 32 and  name c )  ( segid A and resid 33 and name n )
+       ( segid A and resid 33 and name ca )  ( segid A and resid 33 and name c ) 1.0 -126 45 2
+assign ( segid A and resid 33 and  name n )  ( segid A and resid 33 and name ca )
+       ( segid A and resid 33 and name c )  ( segid A and resid 34 and name n ) 1.0 142 39 2
+assign ( segid A and resid 33 and  name c )  ( segid A and resid 34 and name n )
+       ( segid A and resid 34 and name ca )  ( segid A and resid 34 and name c ) 1.0 -126 48 2
+assign ( segid A and resid 34 and  name n )  ( segid A and resid 34 and name ca )
+       ( segid A and resid 34 and name c )  ( segid A and resid 35 and name n ) 1.0 143 51 2
+assign ( segid A and resid 34 and  name c )  ( segid A and resid 35 and name n )
+       ( segid A and resid 35 and name ca )  ( segid A and resid 35 and name c ) 1.0 -135 39 2
+assign ( segid A and resid 35 and  name n )  ( segid A and resid 35 and name ca )
+       ( segid A and resid 35 and name c )  ( segid A and resid 36 and name n ) 1.0 137 27 2
+assign ( segid A and resid 35 and  name c )  ( segid A and resid 36 and name n )
+       ( segid A and resid 36 and name ca )  ( segid A and resid 36 and name c ) 1.0 -114 36 2
+assign ( segid A and resid 36 and  name n )  ( segid A and resid 36 and name ca )
+       ( segid A and resid 36 and name c )  ( segid A and resid 37 and name n ) 1.0 130 27 2
+assign ( segid A and resid 36 and  name c )  ( segid A and resid 37 and name n )
+       ( segid A and resid 37 and name ca )  ( segid A and resid 37 and name c ) 1.0 -121 75 2
+assign ( segid A and resid 37 and  name n )  ( segid A and resid 37 and name ca )
+       ( segid A and resid 37 and name c )  ( segid A and resid 38 and name n ) 1.0 127 42 2
+assign ( segid A and resid 39 and  name c )  ( segid A and resid 40 and name n )
+       ( segid A and resid 40 and name ca )  ( segid A and resid 40 and name c ) 1.0 -94 72 2
+assign ( segid A and resid 40 and  name n )  ( segid A and resid 40 and name ca )
+       ( segid A and resid 40 and name c )  ( segid A and resid 41 and name n ) 1.0 125 66 2
+assign ( segid A and resid 40 and  name c )  ( segid A and resid 41 and name n )
+       ( segid A and resid 41 and name ca )  ( segid A and resid 41 and name c ) 1.0 -105 45 2
+assign ( segid A and resid 41 and  name n )  ( segid A and resid 41 and name ca )
+       ( segid A and resid 41 and name c )  ( segid A and resid 42 and name n ) 1.0 121 36 2
+assign ( segid A and resid 41 and  name c )  ( segid A and resid 42 and name n )
+       ( segid A and resid 42 and name ca )  ( segid A and resid 42 and name c ) 1.0 -129 51 2
+assign ( segid A and resid 42 and  name n )  ( segid A and resid 42 and name ca )
+       ( segid A and resid 42 and name c )  ( segid A and resid 43 and name n ) 1.0 151 51 2
+assign ( segid A and resid 42 and  name c )  ( segid A and resid 43 and name n )
+       ( segid A and resid 43 and name ca )  ( segid A and resid 43 and name c ) 1.0 -125 54 2
+assign ( segid A and resid 43 and  name n )  ( segid A and resid 43 and name ca )
+       ( segid A and resid 43 and name c )  ( segid A and resid 44 and name n ) 1.0 152 42 2
+assign ( segid A and resid 45 and  name c )  ( segid A and resid 46 and name n )
+       ( segid A and resid 46 and name ca )  ( segid A and resid 46 and name c ) 1.0 -102 69 2
+assign ( segid A and resid 46 and  name n )  ( segid A and resid 46 and name ca )
+       ( segid A and resid 46 and name c )  ( segid A and resid 47 and name n ) 1.0 166 30 2
+assign ( segid A and resid 46 and  name c )  ( segid A and resid 47 and name n )
+       ( segid A and resid 47 and name ca )  ( segid A and resid 47 and name c ) 1.0 -59 20 2
+assign ( segid A and resid 47 and  name n )  ( segid A and resid 47 and name ca )
+       ( segid A and resid 47 and name c )  ( segid A and resid 48 and name n ) 1.0 -37 20 2
+assign ( segid A and resid 47 and  name c )  ( segid A and resid 48 and name n )
+       ( segid A and resid 48 and name ca )  ( segid A and resid 48 and name c ) 1.0 -67 20 2
+assign ( segid A and resid 48 and  name n )  ( segid A and resid 48 and name ca )
+       ( segid A and resid 48 and name c )  ( segid A and resid 49 and name n ) 1.0 -43 20 2
+assign ( segid A and resid 48 and  name c )  ( segid A and resid 49 and name n )
+       ( segid A and resid 49 and name ca )  ( segid A and resid 49 and name c ) 1.0 -67 21 2
+assign ( segid A and resid 49 and  name n )  ( segid A and resid 49 and name ca )
+       ( segid A and resid 49 and name c )  ( segid A and resid 50 and name n ) 1.0 -44 27 2
+assign ( segid A and resid 49 and  name c )  ( segid A and resid 50 and name n )
+       ( segid A and resid 50 and name ca )  ( segid A and resid 50 and name c ) 1.0 -63 21 2
+assign ( segid A and resid 50 and  name n )  ( segid A and resid 50 and name ca )
+       ( segid A and resid 50 and name c )  ( segid A and resid 51 and name n ) 1.0 -46 20 2
+assign ( segid A and resid 50 and  name c )  ( segid A and resid 51 and name n )
+       ( segid A and resid 51 and name ca )  ( segid A and resid 51 and name c ) 1.0 -66 21 2
+assign ( segid A and resid 51 and  name n )  ( segid A and resid 51 and name ca )
+       ( segid A and resid 51 and name c )  ( segid A and resid 52 and name n ) 1.0 -43 20 2
+assign ( segid A and resid 51 and  name c )  ( segid A and resid 52 and name n )
+       ( segid A and resid 52 and name ca )  ( segid A and resid 52 and name c ) 1.0 -64 20 2
+assign ( segid A and resid 52 and  name n )  ( segid A and resid 52 and name ca )
+       ( segid A and resid 52 and name c )  ( segid A and resid 53 and name n ) 1.0 -42 20 2
+assign ( segid A and resid 52 and  name c )  ( segid A and resid 53 and name n )
+       ( segid A and resid 53 and name ca )  ( segid A and resid 53 and name c ) 1.0 -60 20 2
+assign ( segid A and resid 53 and  name n )  ( segid A and resid 53 and name ca )
+       ( segid A and resid 53 and name c )  ( segid A and resid 54 and name n ) 1.0 -41 20 2
+assign ( segid A and resid 53 and  name c )  ( segid A and resid 54 and name n )
+       ( segid A and resid 54 and name ca )  ( segid A and resid 54 and name c ) 1.0 -68 27 2
+assign ( segid A and resid 54 and  name n )  ( segid A and resid 54 and name ca )
+       ( segid A and resid 54 and name c )  ( segid A and resid 55 and name n ) 1.0 -39 21 2
+assign ( segid A and resid 54 and  name c )  ( segid A and resid 55 and name n )
+       ( segid A and resid 55 and name ca )  ( segid A and resid 55 and name c ) 1.0 -66 21 2
+assign ( segid A and resid 55 and  name n )  ( segid A and resid 55 and name ca )
+       ( segid A and resid 55 and name c )  ( segid A and resid 56 and name n ) 1.0 -44 20 2
+assign ( segid A and resid 55 and  name c )  ( segid A and resid 56 and name n )
+       ( segid A and resid 56 and name ca )  ( segid A and resid 56 and name c ) 1.0 -65 20 2
+assign ( segid A and resid 56 and  name n )  ( segid A and resid 56 and name ca )
+       ( segid A and resid 56 and name c )  ( segid A and resid 57 and name n ) 1.0 -37 20 2
+assign ( segid A and resid 56 and  name c )  ( segid A and resid 57 and name n )
+       ( segid A and resid 57 and name ca )  ( segid A and resid 57 and name c ) 1.0 -67 20 2
+assign ( segid A and resid 57 and  name n )  ( segid A and resid 57 and name ca )
+       ( segid A and resid 57 and name c )  ( segid A and resid 58 and name n ) 1.0 -40 20 2
+assign ( segid A and resid 57 and  name c )  ( segid A and resid 58 and name n )
+       ( segid A and resid 58 and name ca )  ( segid A and resid 58 and name c ) 1.0 -62 20 2
+assign ( segid A and resid 58 and  name n )  ( segid A and resid 58 and name ca )
+       ( segid A and resid 58 and name c )  ( segid A and resid 59 and name n ) 1.0 -45 20 2
+assign ( segid A and resid 58 and  name c )  ( segid A and resid 59 and name n )
+       ( segid A and resid 59 and name ca )  ( segid A and resid 59 and name c ) 1.0 -63 20 2
+assign ( segid A and resid 59 and  name n )  ( segid A and resid 59 and name ca )
+       ( segid A and resid 59 and name c )  ( segid A and resid 60 and name n ) 1.0 -38 24 2
+assign ( segid A and resid 59 and  name c )  ( segid A and resid 60 and name n )
+       ( segid A and resid 60 and name ca )  ( segid A and resid 60 and name c ) 1.0 -76 45 2
+assign ( segid A and resid 60 and  name n )  ( segid A and resid 60 and name ca )
+       ( segid A and resid 60 and name c )  ( segid A and resid 61 and name n ) 1.0 -30 42 2
+!assign ( segid A and resid 63 and  name c )  ( segid A and resid 64 and name n )
+!       ( segid A and resid 64 and name ca )  ( segid A and resid 64 and name c ) 1.0 -98 81 2
+assign ( segid A and resid 64 and  name n )  ( segid A and resid 64 and name ca )
+       ( segid A and resid 64 and name c )  ( segid A and resid 65 and name n ) 1.0 132 30 2
+assign ( segid A and resid 64 and  name c )  ( segid A and resid 65 and name n )
+       ( segid A and resid 65 and name ca )  ( segid A and resid 65 and name c ) 1.0 -110 54 2
+assign ( segid A and resid 65 and  name n )  ( segid A and resid 65 and name ca )
+       ( segid A and resid 65 and name c )  ( segid A and resid 66 and name n ) 1.0 126 20 2
+assign ( segid A and resid 65 and  name c )  ( segid A and resid 66 and name n )
+       ( segid A and resid 66 and name ca )  ( segid A and resid 66 and name c ) 1.0 -105 48 2
+assign ( segid A and resid 66 and  name n )  ( segid A and resid 66 and name ca )
+       ( segid A and resid 66 and name c )  ( segid A and resid 67 and name n ) 1.0 136 48 2
+assign ( segid A and resid 66 and  name c )  ( segid A and resid 67 and name n )
+       ( segid A and resid 67 and name ca )  ( segid A and resid 67 and name c ) 1.0 -125 45 2
+assign ( segid A and resid 67 and  name n )  ( segid A and resid 67 and name ca )
+       ( segid A and resid 67 and name c )  ( segid A and resid 68 and name n ) 1.0 150 45 2
+assign ( segid A and resid 67 and  name c )  ( segid A and resid 68 and name n )
+       ( segid A and resid 68 and name ca )  ( segid A and resid 68 and name c ) 1.0 -132 27 2
+assign ( segid A and resid 68 and  name n )  ( segid A and resid 68 and name ca )
+       ( segid A and resid 68 and name c )  ( segid A and resid 69 and name n ) 1.0 150 51 2
+!assign ( segid A and resid 70 and  name c )  ( segid A and resid 71 and name n )
+!       ( segid A and resid 71 and name ca )  ( segid A and resid 71 and name c ) 1.0 -88 45 2
+assign ( segid A and resid 71 and  name n )  ( segid A and resid 71 and name ca )
+       ( segid A and resid 71 and name c )  ( segid A and resid 72 and name n ) 1.0 138 48 2
+assign ( segid A and resid 71 and  name c )  ( segid A and resid 72 and name n )
+       ( segid A and resid 72 and name ca )  ( segid A and resid 72 and name c ) 1.0 -59 20 2
+assign ( segid A and resid 72 and  name n )  ( segid A and resid 72 and name ca )
+       ( segid A and resid 72 and name c )  ( segid A and resid 73 and name n ) 1.0 -26 30 2
+assign ( segid A and resid 72 and  name c )  ( segid A and resid 73 and name n )
+       ( segid A and resid 73 and name ca )  ( segid A and resid 73 and name c ) 1.0 -81 45 2
+assign ( segid A and resid 73 and  name n )  ( segid A and resid 73 and name ca )
+       ( segid A and resid 73 and name c )  ( segid A and resid 74 and name n ) 1.0 -5 36 2
+assign ( segid A and resid 73 and  name c )  ( segid A and resid 74 and name n )
+       ( segid A and resid 74 and name ca )  ( segid A and resid 74 and name c ) 1.0 -97 54 2
+assign ( segid A and resid 74 and  name n )  ( segid A and resid 74 and name ca )
+       ( segid A and resid 74 and name c )  ( segid A and resid 75 and name n ) 1.0 129 27 2
+assign ( segid A and resid 74 and  name c )  ( segid A and resid 75 and name n )
+       ( segid A and resid 75 and name ca )  ( segid A and resid 75 and name c ) 1.0 -61 24 2
+assign ( segid A and resid 75 and  name n )  ( segid A and resid 75 and name ca )
+       ( segid A and resid 75 and name c )  ( segid A and resid 76 and name n ) 1.0 145 30 2
+assign ( segid A and resid 75 and  name c )  ( segid A and resid 76 and name n )
+       ( segid A and resid 76 and name ca )  ( segid A and resid 76 and name c ) 1.0 -55 20 2
+assign ( segid A and resid 76 and  name n )  ( segid A and resid 76 and name ca )
+       ( segid A and resid 76 and name c )  ( segid A and resid 77 and name n ) 1.0 -40 24 2
+assign ( segid A and resid 76 and  name c )  ( segid A and resid 77 and name n )
+       ( segid A and resid 77 and name ca )  ( segid A and resid 77 and name c ) 1.0 -64 20 2
+assign ( segid A and resid 77 and  name n )  ( segid A and resid 77 and name ca )
+       ( segid A and resid 77 and name c )  ( segid A and resid 78 and name n ) 1.0 -38 20 2
+assign ( segid A and resid 77 and  name c )  ( segid A and resid 78 and name n )
+       ( segid A and resid 78 and name ca )  ( segid A and resid 78 and name c ) 1.0 -66 21 2
+assign ( segid A and resid 78 and  name n )  ( segid A and resid 78 and name ca )
+       ( segid A and resid 78 and name c )  ( segid A and resid 79 and name n ) 1.0 -38 36 2
+assign ( segid A and resid 78 and  name c )  ( segid A and resid 79 and name n )
+       ( segid A and resid 79 and name ca )  ( segid A and resid 79 and name c ) 1.0 -65 21 2
+assign ( segid A and resid 79 and  name n )  ( segid A and resid 79 and name ca )
+       ( segid A and resid 79 and name c )  ( segid A and resid 80 and name n ) 1.0 -43 42 2
+assign ( segid A and resid 79 and  name c )  ( segid A and resid 80 and name n )
+       ( segid A and resid 80 and name ca )  ( segid A and resid 80 and name c ) 1.0 -64 20 2
+assign ( segid A and resid 80 and  name n )  ( segid A and resid 80 and name ca )
+       ( segid A and resid 80 and name c )  ( segid A and resid 81 and name n ) 1.0 -41 24 2
+assign ( segid A and resid 80 and  name c )  ( segid A and resid 81 and name n )
+       ( segid A and resid 81 and name ca )  ( segid A and resid 81 and name c ) 1.0 -62 27 2
+assign ( segid A and resid 81 and  name n )  ( segid A and resid 81 and name ca )
+       ( segid A and resid 81 and name c )  ( segid A and resid 82 and name n ) 1.0 -42 21 2
+assign ( segid A and resid 81 and  name c )  ( segid A and resid 82 and name n )
+       ( segid A and resid 82 and name ca )  ( segid A and resid 82 and name c ) 1.0 -66 24 2
+assign ( segid A and resid 82 and  name n )  ( segid A and resid 82 and name ca )
+       ( segid A and resid 82 and name c )  ( segid A and resid 83 and name n ) 1.0 -44 20 2
+assign ( segid A and resid 82 and  name c )  ( segid A and resid 83 and name n )
+       ( segid A and resid 83 and name ca )  ( segid A and resid 83 and name c ) 1.0 -65 20 2
+assign ( segid A and resid 83 and  name n )  ( segid A and resid 83 and name ca )
+       ( segid A and resid 83 and name c )  ( segid A and resid 84 and name n ) 1.0 -42 21 2
+assign ( segid A and resid 83 and  name c )  ( segid A and resid 84 and name n )
+       ( segid A and resid 84 and name ca )  ( segid A and resid 84 and name c ) 1.0 -65 20 2
+assign ( segid A and resid 84 and  name n )  ( segid A and resid 84 and name ca )
+       ( segid A and resid 84 and name c )  ( segid A and resid 85 and name n ) 1.0 -42 20 2
+assign ( segid A and resid 84 and  name c )  ( segid A and resid 85 and name n )
+       ( segid A and resid 85 and name ca )  ( segid A and resid 85 and name c ) 1.0 -61 20 2
+assign ( segid A and resid 85 and  name n )  ( segid A and resid 85 and name ca )
+       ( segid A and resid 85 and name c )  ( segid A and resid 86 and name n ) 1.0 -47 27 2
+assign ( segid A and resid 85 and  name c )  ( segid A and resid 86 and name n )
+       ( segid A and resid 86 and name ca )  ( segid A and resid 86 and name c ) 1.0 -63 24 2
+assign ( segid A and resid 86 and  name n )  ( segid A and resid 86 and name ca )
+       ( segid A and resid 86 and name c )  ( segid A and resid 87 and name n ) 1.0 -42 21 2
+assign ( segid A and resid 86 and  name c )  ( segid A and resid 87 and name n )
+       ( segid A and resid 87 and name ca )  ( segid A and resid 87 and name c ) 1.0 -62 20 2
+assign ( segid A and resid 87 and  name n )  ( segid A and resid 87 and name ca )
+       ( segid A and resid 87 and name c )  ( segid A and resid 88 and name n ) 1.0 -42 20 2
+assign ( segid A and resid 87 and  name c )  ( segid A and resid 88 and name n )
+       ( segid A and resid 88 and name ca )  ( segid A and resid 88 and name c ) 1.0 -68 20 2
+assign ( segid A and resid 88 and  name n )  ( segid A and resid 88 and name ca )
+       ( segid A and resid 88 and name c )  ( segid A and resid 89 and name n ) 1.0 -25 39 2
+assign ( segid A and resid 88 and  name c )  ( segid A and resid 89 and name n )
+       ( segid A and resid 89 and name ca )  ( segid A and resid 89 and name c ) 1.0 -92 45 2
+!assign ( segid A and resid 89 and  name n )  ( segid A and resid 89 and name ca )
+!       ( segid A and resid 89 and name c )  ( segid A and resid 90 and name n ) 1.0 -5 27 2
+!assign ( segid A and resid 89 and  name c )  ( segid A and resid 90 and name n )
+!       ( segid A and resid 90 and name ca )  ( segid A and resid 90 and name c ) 1.0 93 24 2
+assign ( segid A and resid 90 and  name n )  ( segid A and resid 90 and name ca )
+       ( segid A and resid 90 and name c )  ( segid A and resid 91 and name n ) 1.0 8 36 2
+!assign ( segid B and resid 20 and  name c )  ( segid B and resid 21 and name n )
+!       ( segid B and resid 21 and name ca )  ( segid B and resid 21 and name c ) 1.0 -102 72 2
+assign ( segid B and resid 21 and  name n )  ( segid B and resid 21 and name ca )
+       ( segid B and resid 21 and name c )  ( segid B and resid 22 and name n ) 1.0 124 51 2
+assign ( segid B and resid 21 and  name c )  ( segid B and resid 22 and name n )
+       ( segid B and resid 22 and name ca )  ( segid B and resid 22 and name c ) 1.0 -63 21 2
+!assign ( segid B and resid 22 and  name n )  ( segid B and resid 22 and name ca )
+!       ( segid B and resid 22 and name c )  ( segid B and resid 23 and name n ) 1.0 141 21 2
+assign ( segid B and resid 22 and  name c )  ( segid B and resid 23 and name n )
+       ( segid B and resid 23 and name ca )  ( segid B and resid 23 and name c ) 1.0 -107 45 2
+assign ( segid B and resid 23 and  name n )  ( segid B and resid 23 and name ca )
+       ( segid B and resid 23 and name c )  ( segid B and resid 24 and name n ) 1.0 119 36 2
+assign ( segid B and resid 23 and  name c )  ( segid B and resid 24 and name n )
+       ( segid B and resid 24 and name ca )  ( segid B and resid 24 and name c ) 1.0 -115 36 2
+assign ( segid B and resid 24 and  name n )  ( segid B and resid 24 and name ca )
+       ( segid B and resid 24 and name c )  ( segid B and resid 25 and name n ) 1.0 127 42 2
+assign ( segid B and resid 24 and  name c )  ( segid B and resid 25 and name n )
+       ( segid B and resid 25 and name ca )  ( segid B and resid 25 and name c ) 1.0 -114 36 2
+assign ( segid B and resid 25 and  name n )  ( segid B and resid 25 and name ca )
+       ( segid B and resid 25 and name c )  ( segid B and resid 26 and name n ) 1.0 127 27 2
+assign ( segid B and resid 25 and  name c )  ( segid B and resid 26 and name n )
+       ( segid B and resid 26 and name ca )  ( segid B and resid 26 and name c ) 1.0 -120 75 2
+assign ( segid B and resid 26 and  name n )  ( segid B and resid 26 and name ca )
+       ( segid B and resid 26 and name c )  ( segid B and resid 27 and name n ) 1.0 134 51 2
+assign ( segid B and resid 26 and  name c )  ( segid B and resid 27 and name n )
+       ( segid B and resid 27 and name ca )  ( segid B and resid 27 and name c ) 1.0 -98 45 2
+assign ( segid B and resid 27 and  name n )  ( segid B and resid 27 and name ca )
+       ( segid B and resid 27 and name c )  ( segid B and resid 28 and name n ) 1.0 122 33 2
+!assign ( segid B and resid 29 and  name c )  ( segid B and resid 30 and name n )
+!       ( segid B and resid 30 and name ca )  ( segid B and resid 30 and name c ) 1.0 -70 54 2
+!assign ( segid B and resid 30 and  name n )  ( segid B and resid 30 and name ca )
+!       ( segid B and resid 30 and name c )  ( segid B and resid 31 and name n ) 1.0 129 36 2
+!assign ( segid B and resid 30 and  name c )  ( segid B and resid 31 and name n )
+!       ( segid B and resid 31 and name ca )  ( segid B and resid 31 and name c ) 1.0 86 27 2
+assign ( segid B and resid 31 and  name n )  ( segid B and resid 31 and name ca )
+       ( segid B and resid 31 and name c )  ( segid B and resid 32 and name n ) 1.0 -4 30 2
+assign ( segid B and resid 31 and  name c )  ( segid B and resid 32 and name n )
+       ( segid B and resid 32 and name ca )  ( segid B and resid 32 and name c ) 1.0 -107 63 2
+!assign ( segid B and resid 32 and  name n )  ( segid B and resid 32 and name ca )
+!       ( segid B and resid 32 and name c )  ( segid B and resid 33 and name n ) 1.0 144 54 2
+assign ( segid B and resid 32 and  name c )  ( segid B and resid 33 and name n )
+       ( segid B and resid 33 and name ca )  ( segid B and resid 33 and name c ) 1.0 -126 45 2
+assign ( segid B and resid 33 and  name n )  ( segid B and resid 33 and name ca )
+       ( segid B and resid 33 and name c )  ( segid B and resid 34 and name n ) 1.0 142 39 2
+assign ( segid B and resid 33 and  name c )  ( segid B and resid 34 and name n )
+       ( segid B and resid 34 and name ca )  ( segid B and resid 34 and name c ) 1.0 -126 48 2
+assign ( segid B and resid 34 and  name n )  ( segid B and resid 34 and name ca )
+       ( segid B and resid 34 and name c )  ( segid B and resid 35 and name n ) 1.0 143 51 2
+assign ( segid B and resid 34 and  name c )  ( segid B and resid 35 and name n )
+       ( segid B and resid 35 and name ca )  ( segid B and resid 35 and name c ) 1.0 -135 39 2
+assign ( segid B and resid 35 and  name n )  ( segid B and resid 35 and name ca )
+       ( segid B and resid 35 and name c )  ( segid B and resid 36 and name n ) 1.0 137 27 2
+assign ( segid B and resid 35 and  name c )  ( segid B and resid 36 and name n )
+       ( segid B and resid 36 and name ca )  ( segid B and resid 36 and name c ) 1.0 -114 36 2
+assign ( segid B and resid 36 and  name n )  ( segid B and resid 36 and name ca )
+       ( segid B and resid 36 and name c )  ( segid B and resid 37 and name n ) 1.0 130 27 2
+assign ( segid B and resid 36 and  name c )  ( segid B and resid 37 and name n )
+       ( segid B and resid 37 and name ca )  ( segid B and resid 37 and name c ) 1.0 -121 75 2
+assign ( segid B and resid 37 and  name n )  ( segid B and resid 37 and name ca )
+       ( segid B and resid 37 and name c )  ( segid B and resid 38 and name n ) 1.0 127 42 2
+assign ( segid B and resid 39 and  name c )  ( segid B and resid 40 and name n )
+       ( segid B and resid 40 and name ca )  ( segid B and resid 40 and name c ) 1.0 -94 72 2
+assign ( segid B and resid 40 and  name n )  ( segid B and resid 40 and name ca )
+       ( segid B and resid 40 and name c )  ( segid B and resid 41 and name n ) 1.0 125 66 2
+assign ( segid B and resid 40 and  name c )  ( segid B and resid 41 and name n )
+       ( segid B and resid 41 and name ca )  ( segid B and resid 41 and name c ) 1.0 -105 45 2
+assign ( segid B and resid 41 and  name n )  ( segid B and resid 41 and name ca )
+       ( segid B and resid 41 and name c )  ( segid B and resid 42 and name n ) 1.0 121 36 2
+assign ( segid B and resid 41 and  name c )  ( segid B and resid 42 and name n )
+       ( segid B and resid 42 and name ca )  ( segid B and resid 42 and name c ) 1.0 -129 51 2
+assign ( segid B and resid 42 and  name n )  ( segid B and resid 42 and name ca )
+       ( segid B and resid 42 and name c )  ( segid B and resid 43 and name n ) 1.0 151 51 2
+assign ( segid B and resid 42 and  name c )  ( segid B and resid 43 and name n )
+       ( segid B and resid 43 and name ca )  ( segid B and resid 43 and name c ) 1.0 -125 54 2
+assign ( segid B and resid 43 and  name n )  ( segid B and resid 43 and name ca )
+       ( segid B and resid 43 and name c )  ( segid B and resid 44 and name n ) 1.0 152 42 2
+assign ( segid B and resid 45 and  name c )  ( segid B and resid 46 and name n )
+       ( segid B and resid 46 and name ca )  ( segid B and resid 46 and name c ) 1.0 -102 69 2
+assign ( segid B and resid 46 and  name n )  ( segid B and resid 46 and name ca )
+       ( segid B and resid 46 and name c )  ( segid B and resid 47 and name n ) 1.0 166 30 2
+assign ( segid B and resid 46 and  name c )  ( segid B and resid 47 and name n )
+       ( segid B and resid 47 and name ca )  ( segid B and resid 47 and name c ) 1.0 -59 20 2
+assign ( segid B and resid 47 and  name n )  ( segid B and resid 47 and name ca )
+       ( segid B and resid 47 and name c )  ( segid B and resid 48 and name n ) 1.0 -37 20 2
+assign ( segid B and resid 47 and  name c )  ( segid B and resid 48 and name n )
+       ( segid B and resid 48 and name ca )  ( segid B and resid 48 and name c ) 1.0 -67 20 2
+assign ( segid B and resid 48 and  name n )  ( segid B and resid 48 and name ca )
+       ( segid B and resid 48 and name c )  ( segid B and resid 49 and name n ) 1.0 -43 20 2
+assign ( segid B and resid 48 and  name c )  ( segid B and resid 49 and name n )
+       ( segid B and resid 49 and name ca )  ( segid B and resid 49 and name c ) 1.0 -67 21 2
+assign ( segid B and resid 49 and  name n )  ( segid B and resid 49 and name ca )
+       ( segid B and resid 49 and name c )  ( segid B and resid 50 and name n ) 1.0 -44 27 2
+assign ( segid B and resid 49 and  name c )  ( segid B and resid 50 and name n )
+       ( segid B and resid 50 and name ca )  ( segid B and resid 50 and name c ) 1.0 -63 21 2
+assign ( segid B and resid 50 and  name n )  ( segid B and resid 50 and name ca )
+       ( segid B and resid 50 and name c )  ( segid B and resid 51 and name n ) 1.0 -46 20 2
+assign ( segid B and resid 50 and  name c )  ( segid B and resid 51 and name n )
+       ( segid B and resid 51 and name ca )  ( segid B and resid 51 and name c ) 1.0 -66 21 2
+assign ( segid B and resid 51 and  name n )  ( segid B and resid 51 and name ca )
+       ( segid B and resid 51 and name c )  ( segid B and resid 52 and name n ) 1.0 -43 20 2
+assign ( segid B and resid 51 and  name c )  ( segid B and resid 52 and name n )
+       ( segid B and resid 52 and name ca )  ( segid B and resid 52 and name c ) 1.0 -64 20 2
+assign ( segid B and resid 52 and  name n )  ( segid B and resid 52 and name ca )
+       ( segid B and resid 52 and name c )  ( segid B and resid 53 and name n ) 1.0 -42 20 2
+assign ( segid B and resid 52 and  name c )  ( segid B and resid 53 and name n )
+       ( segid B and resid 53 and name ca )  ( segid B and resid 53 and name c ) 1.0 -60 20 2
+assign ( segid B and resid 53 and  name n )  ( segid B and resid 53 and name ca )
+       ( segid B and resid 53 and name c )  ( segid B and resid 54 and name n ) 1.0 -41 20 2
+assign ( segid B and resid 53 and  name c )  ( segid B and resid 54 and name n )
+       ( segid B and resid 54 and name ca )  ( segid B and resid 54 and name c ) 1.0 -68 27 2
+assign ( segid B and resid 54 and  name n )  ( segid B and resid 54 and name ca )
+       ( segid B and resid 54 and name c )  ( segid B and resid 55 and name n ) 1.0 -39 21 2
+assign ( segid B and resid 54 and  name c )  ( segid B and resid 55 and name n )
+       ( segid B and resid 55 and name ca )  ( segid B and resid 55 and name c ) 1.0 -66 21 2
+assign ( segid B and resid 55 and  name n )  ( segid B and resid 55 and name ca )
+       ( segid B and resid 55 and name c )  ( segid B and resid 56 and name n ) 1.0 -44 20 2
+assign ( segid B and resid 55 and  name c )  ( segid B and resid 56 and name n )
+       ( segid B and resid 56 and name ca )  ( segid B and resid 56 and name c ) 1.0 -65 20 2
+assign ( segid B and resid 56 and  name n )  ( segid B and resid 56 and name ca )
+       ( segid B and resid 56 and name c )  ( segid B and resid 57 and name n ) 1.0 -37 20 2
+assign ( segid B and resid 56 and  name c )  ( segid B and resid 57 and name n )
+       ( segid B and resid 57 and name ca )  ( segid B and resid 57 and name c ) 1.0 -67 20 2
+assign ( segid B and resid 57 and  name n )  ( segid B and resid 57 and name ca )
+       ( segid B and resid 57 and name c )  ( segid B and resid 58 and name n ) 1.0 -40 20 2
+assign ( segid B and resid 57 and  name c )  ( segid B and resid 58 and name n )
+       ( segid B and resid 58 and name ca )  ( segid B and resid 58 and name c ) 1.0 -62 20 2
+assign ( segid B and resid 58 and  name n )  ( segid B and resid 58 and name ca )
+       ( segid B and resid 58 and name c )  ( segid B and resid 59 and name n ) 1.0 -45 20 2
+assign ( segid B and resid 58 and  name c )  ( segid B and resid 59 and name n )
+       ( segid B and resid 59 and name ca )  ( segid B and resid 59 and name c ) 1.0 -63 20 2
+assign ( segid B and resid 59 and  name n )  ( segid B and resid 59 and name ca )
+       ( segid B and resid 59 and name c )  ( segid B and resid 60 and name n ) 1.0 -38 24 2
+assign ( segid B and resid 59 and  name c )  ( segid B and resid 60 and name n )
+       ( segid B and resid 60 and name ca )  ( segid B and resid 60 and name c ) 1.0 -76 45 2
+assign ( segid B and resid 60 and  name n )  ( segid B and resid 60 and name ca )
+       ( segid B and resid 60 and name c )  ( segid B and resid 61 and name n ) 1.0 -30 42 2
+!assign ( segid B and resid 63 and  name c )  ( segid B and resid 64 and name n )
+!       ( segid B and resid 64 and name ca )  ( segid B and resid 64 and name c ) 1.0 -98 81 2
+assign ( segid B and resid 64 and  name n )  ( segid B and resid 64 and name ca )
+       ( segid B and resid 64 and name c )  ( segid B and resid 65 and name n ) 1.0 132 30 2
+assign ( segid B and resid 64 and  name c )  ( segid B and resid 65 and name n )
+       ( segid B and resid 65 and name ca )  ( segid B and resid 65 and name c ) 1.0 -110 54 2
+assign ( segid B and resid 65 and  name n )  ( segid B and resid 65 and name ca )
+       ( segid B and resid 65 and name c )  ( segid B and resid 66 and name n ) 1.0 126 20 2
+assign ( segid B and resid 65 and  name c )  ( segid B and resid 66 and name n )
+       ( segid B and resid 66 and name ca )  ( segid B and resid 66 and name c ) 1.0 -105 48 2
+assign ( segid B and resid 66 and  name n )  ( segid B and resid 66 and name ca )
+       ( segid B and resid 66 and name c )  ( segid B and resid 67 and name n ) 1.0 136 48 2
+assign ( segid B and resid 66 and  name c )  ( segid B and resid 67 and name n )
+       ( segid B and resid 67 and name ca )  ( segid B and resid 67 and name c ) 1.0 -125 45 2
+assign ( segid B and resid 67 and  name n )  ( segid B and resid 67 and name ca )
+       ( segid B and resid 67 and name c )  ( segid B and resid 68 and name n ) 1.0 150 45 2
+assign ( segid B and resid 67 and  name c )  ( segid B and resid 68 and name n )
+       ( segid B and resid 68 and name ca )  ( segid B and resid 68 and name c ) 1.0 -132 27 2
+assign ( segid B and resid 68 and  name n )  ( segid B and resid 68 and name ca )
+       ( segid B and resid 68 and name c )  ( segid B and resid 69 and name n ) 1.0 150 51 2
+!assign ( segid B and resid 70 and  name c )  ( segid B and resid 71 and name n )
+!       ( segid B and resid 71 and name ca )  ( segid B and resid 71 and name c ) 1.0 -88 45 2
+assign ( segid B and resid 71 and  name n )  ( segid B and resid 71 and name ca )
+       ( segid B and resid 71 and name c )  ( segid B and resid 72 and name n ) 1.0 138 48 2
+assign ( segid B and resid 71 and  name c )  ( segid B and resid 72 and name n )
+       ( segid B and resid 72 and name ca )  ( segid B and resid 72 and name c ) 1.0 -59 20 2
+assign ( segid B and resid 72 and  name n )  ( segid B and resid 72 and name ca )
+       ( segid B and resid 72 and name c )  ( segid B and resid 73 and name n ) 1.0 -26 30 2
+assign ( segid B and resid 72 and  name c )  ( segid B and resid 73 and name n )
+       ( segid B and resid 73 and name ca )  ( segid B and resid 73 and name c ) 1.0 -81 45 2
+assign ( segid B and resid 73 and  name n )  ( segid B and resid 73 and name ca )
+       ( segid B and resid 73 and name c )  ( segid B and resid 74 and name n ) 1.0 -5 36 2
+assign ( segid B and resid 73 and  name c )  ( segid B and resid 74 and name n )
+       ( segid B and resid 74 and name ca )  ( segid B and resid 74 and name c ) 1.0 -97 54 2
+assign ( segid B and resid 74 and  name n )  ( segid B and resid 74 and name ca )
+       ( segid B and resid 74 and name c )  ( segid B and resid 75 and name n ) 1.0 129 27 2
+assign ( segid B and resid 74 and  name c )  ( segid B and resid 75 and name n )
+       ( segid B and resid 75 and name ca )  ( segid B and resid 75 and name c ) 1.0 -61 24 2
+assign ( segid B and resid 75 and  name n )  ( segid B and resid 75 and name ca )
+       ( segid B and resid 75 and name c )  ( segid B and resid 76 and name n ) 1.0 145 30 2
+assign ( segid B and resid 75 and  name c )  ( segid B and resid 76 and name n )
+       ( segid B and resid 76 and name ca )  ( segid B and resid 76 and name c ) 1.0 -55 20 2
+assign ( segid B and resid 76 and  name n )  ( segid B and resid 76 and name ca )
+       ( segid B and resid 76 and name c )  ( segid B and resid 77 and name n ) 1.0 -40 24 2
+assign ( segid B and resid 76 and  name c )  ( segid B and resid 77 and name n )
+       ( segid B and resid 77 and name ca )  ( segid B and resid 77 and name c ) 1.0 -64 20 2
+assign ( segid B and resid 77 and  name n )  ( segid B and resid 77 and name ca )
+       ( segid B and resid 77 and name c )  ( segid B and resid 78 and name n ) 1.0 -38 20 2
+assign ( segid B and resid 77 and  name c )  ( segid B and resid 78 and name n )
+       ( segid B and resid 78 and name ca )  ( segid B and resid 78 and name c ) 1.0 -66 21 2
+assign ( segid B and resid 78 and  name n )  ( segid B and resid 78 and name ca )
+       ( segid B and resid 78 and name c )  ( segid B and resid 79 and name n ) 1.0 -38 36 2
+assign ( segid B and resid 78 and  name c )  ( segid B and resid 79 and name n )
+       ( segid B and resid 79 and name ca )  ( segid B and resid 79 and name c ) 1.0 -65 21 2
+assign ( segid B and resid 79 and  name n )  ( segid B and resid 79 and name ca )
+       ( segid B and resid 79 and name c )  ( segid B and resid 80 and name n ) 1.0 -43 42 2
+assign ( segid B and resid 79 and  name c )  ( segid B and resid 80 and name n )
+       ( segid B and resid 80 and name ca )  ( segid B and resid 80 and name c ) 1.0 -64 20 2
+assign ( segid B and resid 80 and  name n )  ( segid B and resid 80 and name ca )
+       ( segid B and resid 80 and name c )  ( segid B and resid 81 and name n ) 1.0 -41 24 2
+assign ( segid B and resid 80 and  name c )  ( segid B and resid 81 and name n )
+       ( segid B and resid 81 and name ca )  ( segid B and resid 81 and name c ) 1.0 -62 27 2
+assign ( segid B and resid 81 and  name n )  ( segid B and resid 81 and name ca )
+       ( segid B and resid 81 and name c )  ( segid B and resid 82 and name n ) 1.0 -42 21 2
+assign ( segid B and resid 81 and  name c )  ( segid B and resid 82 and name n )
+       ( segid B and resid 82 and name ca )  ( segid B and resid 82 and name c ) 1.0 -66 24 2
+assign ( segid B and resid 82 and  name n )  ( segid B and resid 82 and name ca )
+       ( segid B and resid 82 and name c )  ( segid B and resid 83 and name n ) 1.0 -44 20 2
+assign ( segid B and resid 82 and  name c )  ( segid B and resid 83 and name n )
+       ( segid B and resid 83 and name ca )  ( segid B and resid 83 and name c ) 1.0 -65 20 2
+assign ( segid B and resid 83 and  name n )  ( segid B and resid 83 and name ca )
+       ( segid B and resid 83 and name c )  ( segid B and resid 84 and name n ) 1.0 -42 21 2
+assign ( segid B and resid 83 and  name c )  ( segid B and resid 84 and name n )
+       ( segid B and resid 84 and name ca )  ( segid B and resid 84 and name c ) 1.0 -65 20 2
+assign ( segid B and resid 84 and  name n )  ( segid B and resid 84 and name ca )
+       ( segid B and resid 84 and name c )  ( segid B and resid 85 and name n ) 1.0 -42 20 2
+assign ( segid B and resid 84 and  name c )  ( segid B and resid 85 and name n )
+       ( segid B and resid 85 and name ca )  ( segid B and resid 85 and name c ) 1.0 -61 20 2
+assign ( segid B and resid 85 and  name n )  ( segid B and resid 85 and name ca )
+       ( segid B and resid 85 and name c )  ( segid B and resid 86 and name n ) 1.0 -47 27 2
+assign ( segid B and resid 85 and  name c )  ( segid B and resid 86 and name n )
+       ( segid B and resid 86 and name ca )  ( segid B and resid 86 and name c ) 1.0 -63 24 2
+assign ( segid B and resid 86 and  name n )  ( segid B and resid 86 and name ca )
+       ( segid B and resid 86 and name c )  ( segid B and resid 87 and name n ) 1.0 -42 21 2
+assign ( segid B and resid 86 and  name c )  ( segid B and resid 87 and name n )
+       ( segid B and resid 87 and name ca )  ( segid B and resid 87 and name c ) 1.0 -62 20 2
+assign ( segid B and resid 87 and  name n )  ( segid B and resid 87 and name ca )
+       ( segid B and resid 87 and name c )  ( segid B and resid 88 and name n ) 1.0 -42 20 2
+assign ( segid B and resid 87 and  name c )  ( segid B and resid 88 and name n )
+       ( segid B and resid 88 and name ca )  ( segid B and resid 88 and name c ) 1.0 -68 20 2
+assign ( segid B and resid 88 and  name n )  ( segid B and resid 88 and name ca )
+       ( segid B and resid 88 and name c )  ( segid B and resid 89 and name n ) 1.0 -25 39 2
+assign ( segid B and resid 88 and  name c )  ( segid B and resid 89 and name n )
+       ( segid B and resid 89 and name ca )  ( segid B and resid 89 and name c ) 1.0 -92 45 2
+!assign ( segid B and resid 89 and  name n )  ( segid B and resid 89 and name ca )
+!       ( segid B and resid 89 and name c )  ( segid B and resid 90 and name n ) 1.0 -5 27 2
+!assign ( segid B and resid 89 and  name c )  ( segid B and resid 90 and name n )
+!       ( segid B and resid 90 and name ca )  ( segid B and resid 90 and name c ) 1.0 93 24 2
+assign ( segid B and resid 90 and  name n )  ( segid B and resid 90 and name ca )
+       ( segid B and resid 90 and name c )  ( segid B and resid 91 and name n ) 1.0 8 36 2

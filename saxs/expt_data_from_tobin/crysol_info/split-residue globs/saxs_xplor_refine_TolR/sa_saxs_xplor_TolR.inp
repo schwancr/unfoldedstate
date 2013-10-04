@@ -1,0 +1,260 @@
+evaluate ($seed=93869099)
+set seed $seed  end
+
+parameter @protein-allhdg.param @axis.param end
+structure @tolR.psf end
+
+! *************** SAXS data enters here ************************
+saxs
+ ntyp = 37     ! # of glob types
+ ndat = 29     ! # of data points 
+ kfor = 10.0   ! force const 
+ prnf = 10000  ! printing frequency
+ i0   = 0.1695 ! zero-angle scattering intensity
+ @saxs_files_TolR_rescale13.dat ! locations of necessaary files
+end
+!***************************************************************
+
+coor @h8.pdb @ani.pdb
+dele sele (not known) end
+coor copy end
+
+! *** Non-bonded parameters ***
+parameter                      
+  nbonds
+    repel  = 0.81
+    rconst = 4.00
+    rexp=2 
+    irexp=2
+    nbxmod = 3                 
+    wmin=0.01 
+    cutnb=5.0 
+    tolerance=0.5 
+  end
+end
+
+! *** NOEs ***
+noe
+  reset
+  nres = 20000
+  set message=off echo=off end
+  class n15  @N0719.cns
+  class c13  @C0719.cns
+  set message=on echo=on end
+  ceiling=1000  
+  averaging  * sum
+  potential  * soft
+  scale      * 50.0                           
+  sqconstant * 1.0
+  sqexponent * 2
+  soexponent * 1
+  rswitch    * 3.0
+  sqoffset   * 0.0
+  asymptote  * 1.0
+end
+
+! *** HBDB ***
+
+hbdb
+ kdir = 0.75 
+ klin = 0.25 
+ nseg =   2 
+ nmin =  20 
+ nmax =  92 
+ segm =   A
+ nmin =  20 
+ nmax =  92 
+ segm =   B
+ ohcut   =  2.60 
+ coh1cut = 100.0
+ coh2cut = 100.0
+ ohncut  = 100.0
+ updfrq =   1000
+ prnfrq =   1000
+ freemode  = 0 
+ fixedmode = 1 
+ mfdir  = 0
+ mflin  = 0
+ kmfd   =  0.0
+ kmfl   =  0.0
+ renf =    2.2
+ kenf =   20.0
+ @hbdb_files.dat ! location of the PMF files
+ @hbdb1004.tbl
+end
+
+! ****** Dihedral angles ********
+restraints dihedral
+  nass  = 2000
+  scale = 200.0
+  set message=off echo=off end
+  @dihe.tbl
+  set message=on echo=on end
+end
+
+ncs restraints
+  group
+    equi (segi A and not hydrogen)
+    equi (segi B and not hydrogen)
+    weight-ncs=100.0     
+  end
+  ?	
+end
+
+
+
+! *** RDCs ***
+evaluate ($Da_NHN = -8.750)
+evaluate ($R      =  0.070)
+evaluate ($Da_CAHA = $Da_NHN*2.060)
+evaluate ($Da_CAC  = $Da_NHN*0.204)
+evaluate ($Da_CN   = $Da_NHN*0.118)
+evaluate ($fact_nhn  =   0.60)
+evaluate ($fact_cac  =  10.00)
+evaluate ($fact_cn   =  20.00)
+evaluate ($fact_caha =   0.15)	
+
+
+sani
+  reset
+  nres=2000
+  potential harmonic
+  set message=off echo=off end
+  class NHN  force 0.0  coef 0.0 $Da_nhn  $R @21-92jnh0823.cns
+  class CAHA force 0.0  coef 0.0 $Da_caha $R @21-92jhaca2_cor.cns
+  class CAC  force 0.0  coef 0.0 $Da_cac  $R @21-92jcoca0823.cns
+  class CN   force 0.0  coef 0.0 $Da_cn   $R @21-92jnco_0.7.cns 
+
+end
+
+set message=on echo=on end 
+
+vector do (refx=x) (all)
+vector do (refy=y) (all)
+vector do (refz=z) (all)
+
+vector do (mass  = 100.0) (all) 
+vector do (mass  =  30.0) (resid 500)
+vector do (fbeta =  10.0) (all)
+
+constraints fix (resid 500 and name OO) end
+
+!***************SAXS flag has to be set here*******************************
+flags exclude * include bond angle impr vdw ncs hbdb noe cdih sani saxs end
+constraints interaction (all) (all) weights * 1. end end
+!**************************************************************************
+
+
+!*** Main loop ***
+
+evaluate ( $nfile  =  3)
+evaluate ( $ifile  =  1)
+
+
+evaluate ( $imax = $nfile+1 )
+while ( $ifile < $imax ) loop main
+
+  evaluate ( $t_ini  =              2001.0)
+  evaluate ( $t_fin  =                 1.0)
+  evaluate ( $tsteps =                 200) 
+  evaluate ( $nsteps =                 500)
+  evaluate ( $dt = ($t_ini-$t_fin)/$tsteps)
+
+  evaluate ($ini_sani = 0.50)
+  evaluate ($fin_sani = 1.00)  
+  evaluate ($sani_fac   = ($fin_sani/$ini_sani)^(1/($tsteps+1)))
+  evaluate ($ksani      = $ini_sani)
+
+
+  !*** Simulated annealing loop ***
+  evaluate ($t_curr =  $t_ini)
+  evaluate ($nsim   =       1)
+  evaluate ($nmax = $tsteps+2)
+  while    ($nsim < $nmax) loop cool
+
+    evaluate ($ksani=$ksani*$sani_fac)
+    evaluate ($k_nhn=$ksani*$fact_nhn)
+    evaluate ($k_cha=$ksani*$fact_caha)
+    evaluate ($k_cac=$ksani*$fact_cac)
+    evaluate ($k_cn =$ksani*$fact_cn)
+
+    sani class NHN  force $k_nhn    end
+    sani class CAHA force $k_cha    end
+    sani class CAC  force $k_cac    end
+    sani class CN   force $k_cn     end
+
+    vector do (vx=maxwell($t_curr)) (all)
+    vector do (vy=maxwell($t_curr)) (all)
+    vector do (vz=maxwell($t_curr)) (all)
+
+     dynamics  verlet
+       tcoupling=true
+       timestep=0.001
+       nstep=$nsteps
+       nprint=1000
+       firsttemp=$t_curr
+       tbath=$t_curr
+       iasvel = current           
+       iprfrq = 1000
+       ntrfrq = 0
+     end 
+
+    evaluate ($t_curr = $t_curr-$dt)
+    evaluate ($nsim = $nsim +1)
+
+
+  end loop cool
+
+  minimize powell nstep=200  nprint=10 end
+
+  evaluate ($filename="TolR_H8_saxs_"+encode($ifile)+".pdb")
+  set print=$filename end
+
+  print threshold=0.5 noe
+  evaluate ($rms_noe=$result)
+  print threshold=0.5 cdih
+  evaluate ($rms_cdih=$result)
+
+  print thres=0.05 bonds          
+  evaluate ($rms_bonds=$result)
+  print thres=5.0 angles
+  evaluate ($rms_angles=$result)
+  print thres=5.0 impropers
+  evaluate ($rms_impropers=$result)
+  
+  sani print threshold=0.0 class NHN end
+  evaluate ($rms_NHN=$result)
+  sani print threshold=0.0 class CAHA  end
+  evaluate ($rms_CAHA=$result)
+  sani print threshold=0.0 class CAC end
+  evaluate ($rms_CAC=$result)
+  sani print threshold=0.0 class CN end
+  evaluate ($rms_CN=$result)
+  
+  hbdb print end
+
+  saxs print end
+
+  remarks =============================================================== 
+  remarks Empirical energies:  overall,bonds,angles,improper,vdw
+  remarks Empirical energies:  $ener,$bond,$angl,$impr,$vdw
+  remarks =============================================================== 
+  remarks NCS energy: $ncs
+  remarks =============================================================== 
+  remarks  rms bonds,angles,impropers:$rms_bonds, $rms_angles, $rms_impropers
+  remarks =============================================================== 
+  remarks N -HN RDC rms: $rms_NHN
+  remarks Ca-Ha RDC rms: $rms_CAHA
+  remarks Ca- C RDC rms: $rms_CAC
+  remarks C - N RDC rms: $rms_CN
+  remarks ===============================================================
+
+  write coordinates output =$filename end
+
+  evaluate ($ifile = $ifile +1)
+
+end loop main
+
+stop
+
+
