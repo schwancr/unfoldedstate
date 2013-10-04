@@ -1,0 +1,34 @@
+
+For protein L, these are the fret experiments we can fit:
+
+1) Sherman, E. and Haran G. PNAS (2006)
+http://www.pnas.org/content/103/31/11539.full.pdf+html
+
+    They have a his-tagged n-terminus (HHA-proteinL) and say that they
+        inserted cysteines at positions 1 and 64 
+    Our sequence has a MET and a GLY at positions 1 and 64, so the probes
+        were inserted at the n- and c-termini
+
+2) Merchant et al. 10.1073/pnas.0607097104.
+
+    They have a protein L version with 65 residues, corresponding to this 
+        sequence:
+
+    CEEV...FAGC
+
+    Where the C's are the labeled sites. This corresponds to replacing our 
+        methionine (1) and appending a cysteine onto the c-terminus
+
+    They get similar results to (1), so we can probably still use this data.
+
+
+So, these papers predict a radius of gyration for the unfolded state
+    at both 0M and 6M GdmCl:
+
+         Rg @ 0M [nm] | Rg @ 6M [nm] 
+    (1):         1.71 |         2.89
+    (2):         1.98 |         3.03
+
+Additionally, each paper reports the FRET efficiency distribution since
+    these are single molecule experiments. We are waiting on email 
+    correspondences to get all of that data. For now we can fit to the mean
