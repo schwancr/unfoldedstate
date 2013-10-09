@@ -9,12 +9,12 @@ snapshot in an MSMBuilder Trajectories/ dir.
 
 
 import sys
-import glob
 import os
-import os.path.join as pjoin
+import subprocess
 import argparse
+from glob import glob
+from os.path import join as pjoin
 
-import tables
 import numpy as np
 import multiprocessing as mp
 
@@ -37,13 +37,16 @@ DEVNULL = open(os.devnull,'w')
 
 def setup_tmp_dir():
 
-    if not os.path.exists('/scratch/tjlane/crysol'):
-        os.system('mkdir -p /scratch/tjlane/crysol')
-
     global TEMPDIR
-    TEMPDIR = '/scratch/tjlane/crysol'
+    TEMPDIR = '/scratch/tjlane/crysol/%s' % os.getpid()
+
+    if not os.path.exists(TEMPDIR):
+        os.system('mkdir -p %s' % TEMPDIR)
 
     return
+
+def compute_crysol_helper(args):
+    return compute_crysol(*args)
 
 
 def compute_crysol(trajectory, save_to=None):
@@ -67,8 +70,13 @@ def compute_crysol(trajectory, save_to=None):
         The estimated integrated intensity for each `q_value`
     """
 
+    setup_tmp_dir()
+
     if type(trajectory) == str:
-        trajectory = Trajectory.load_from_file(trajectory)
+        trajectory = Trajectory.load_trajectory_file(trajectory)
+
+    os.chdir(TEMPDIR)
+    scattering_pred = None
 
     for i in range(len(trajectory)):
 
@@ -79,19 +87,20 @@ def compute_crysol(trajectory, save_to=None):
 
         # run crysol comand line
         args = ['/%s %s' % kv for kv in crysol_params.items()]
-        cmd = ['crysol', pdbfn] + args + ['2>&1 /dev/null']
-        subprocess.check_call(cmd, shell=True)
+        cmd = ['crysol', pdbfn] + args
+        print cmd
+        subprocess.check_call(' '.join(cmd), shell=True, stdout=DEVNULL, stderr=DEVNULL)
 
         # parse the output
         intensities_output = 'tmp4crysol00.int'
         if not os.path.exists(intensities_output):
              raise IOError('crysol output not found')
 
-        d = genfromtxt(intensities_output, skip_header=1)
+        d = np.genfromtxt(intensities_output, skip_header=1)
         q_values = d[:,0]
 
         # initialize output space
-        if not scattering_pred:
+        if scattering_pred == None:
             scattering_pred = np.zeros((len(trajectory), d.shape[0]))
 
         scattering_pred[i,:] = d[:,3]
@@ -105,22 +114,30 @@ def compute_crysol(trajectory, save_to=None):
     if save_to:
         io.saveh(save_to, q_values=q_values, saxs=scattering_pred)
         print "Saved: %s" % save_to
-
-    return q_values, scattering_pred
+        return
+    else:
+        return q_values, scattering_pred
 
 
 def main(in_dir, extension, out_dir):
 
     pool = mp.Pool(mp.cpu_count())
 
+    if not os.path.exists(out_dir):
+        os.system('mkdir -p %s' % out_dir)
+
     print "Searching for files matching:", in_dir + '*' + extension
-    trajectory_list = glob(in_dir + '*' + extension)
+    trajectory_list = glob(in_dir + '/*' + extension)
     print "Found: %d trajectory files" % len(trajectory_list)
 
-    output_names = [ pjoin(out_dir, os.path.basename(t_fn).split('.')[:-1] + '-crysol.h5') for t_fn in trajectory_list ]
+    output_names = [ os.path.abspath( pjoin(out_dir, ''.join(os.path.basename(t_fn).split('.')[:-1]) + '-crysol.h5') ) for t_fn in trajectory_list ]
 
-    result = pool.map_async(compute_crysol, zip(trajectory_list, output_names))
+    print trajectory_list
+    print output_names
+
+    result = pool.map_async(compute_crysol_helper, zip(trajectory_list, output_names))
     result.wait()
+    print result.get()
 
     DEVNULL.close()
 
@@ -129,7 +146,7 @@ def main(in_dir, extension, out_dir):
 
 if __name__ == '__main__':
 
-    argparse.ArgumentParser(description='Map crysol onto trajectory data')
+    parser = argparse.ArgumentParser(description='Map crysol onto trajectory data')
     parser.add_argument('in_dir', help='Directory containing trajectories to compute SAXS for')
     parser.add_argument('-e', '--extension', help='Trajectory extension to look for. Default: lh5', default='lh5') 
     parser.add_argument('-o', '--out_dir', help='Directory to save output in. Default: crysol.', default='crysol')
